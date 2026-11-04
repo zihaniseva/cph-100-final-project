@@ -1,0 +1,28 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="style.css">
+<style>
+.t{display:grid;grid-template-columns:1fr 46px 150px 230px;align-items:center;gap:14px 16px}
+.t .s{font-size:18.5px;line-height:1.5;background:var(--box);border:1.5px solid var(--edge);border-radius:8px;padding:14px 18px}
+.t .s.hard{border-color:var(--red);border-width:2px}
+.hd{font-family:var(--mono);font-size:12.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.kw{font-family:var(--mono);font-size:13.5px}
+.legend{display:flex;gap:26px;font-size:14px;color:var(--muted);align-items:center}
+</style></head><body>
+<div class="figure">
+  <div class="title">The task: whose condition is it?</div>
+  <div class="sub">Each sentence names a target condition. The label is the condition's experiencer, the person who has it.</div>
+  <div class="t">
+    <div class="hd">Clinical text</div><div></div><div class="hd">Experiencer</div><div class="hd">Keyword rule</div>
+    <div class="s"><span class="pat">The patient</span> has <span class="cond">diabetes</span>.</div><div class="arrow" style="width:40px"></div>
+    <div><span class="chip p">PATIENT</span></div><div class="kw good">PATIENT ✓</div>
+    <div class="s"><span class="fam">Her mother</span> has <span class="cond">diabetes</span>.</div><div class="arrow" style="width:40px"></div>
+    <div><span class="chip o">OTHER</span></div><div class="kw good">OTHER ✓</div>
+    <div class="s hard"><span class="fam">Her mother</span> reports that <span class="pat">the patient</span> has <span class="cond">headaches</span>.</div><div class="arrow" style="width:40px"></div>
+    <div><span class="chip p">PATIENT</span></div><div class="kw bad">OTHER ✗<br><span style="font-size:12px">"mother" is present</span></div>
+  </div>
+  <div class="legend">
+    <span><span class="cond">condition</span> target</span>
+    <span><span class="fam">relative</span> family word</span>
+    <span><span class="pat">patient</span> patient mention</span>
+    <span class="bad" style="font-weight:600">Red border: a family word is present, but the patient is the experiencer</span>
+  </div>
+</div></body></html>

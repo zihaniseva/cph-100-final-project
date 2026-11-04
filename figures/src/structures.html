@@ -1,0 +1,45 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="style.css">
+<style>
+.grp{display:flex;flex-direction:column;gap:10px}
+.gh{display:flex;align-items:baseline;gap:12px}
+.gh .k{font-family:var(--mono);font-size:12.5px;letter-spacing:.06em;text-transform:uppercase;font-weight:600}
+.gh .d{font-size:14px;color:var(--muted)}
+.cards{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}
+.card{background:var(--box);border:1.5px solid var(--edge);border-radius:8px;padding:11px 14px 12px;display:flex;flex-direction:column;gap:6px}
+.card.train{border-color:var(--edge)}
+.card.held{border-color:var(--red)}
+.top{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.nm{font-weight:600;font-size:15px}
+.ex{font-size:14px;line-height:1.4}
+.src{font-family:var(--mono);font-size:11.5px;color:var(--muted)}
+.chip{font-size:11px;padding:1px 8px}
+</style></head><body>
+<div class="figure" style="width:1420px">
+  <div class="title">Dataset: 11,400 sentences in 12 structures, each balanced PATIENT / OTHER</div>
+  <div class="sub">Probes train on the two easy structures. The ten held-out structures each break the "family word means OTHER" shortcut in a different way.</div>
+
+  <div class="grp">
+    <div class="gh"><span class="k" style="color:var(--edge)">Train structures</span><span class="d">a family word next to the condition reliably signals OTHER</span></div>
+    <div class="cards">
+      <div class="card train"><div class="top"><span class="nm">Narrative</span><span class="chip o">OTHER</span></div><div class="ex"><span class="fam">Her daughter</span> was diagnosed with <span class="cond">breast cancer</span>.</div><div class="src">baseline</div></div>
+      <div class="card train"><div class="top"><span class="nm">Family-history trigger</span><span class="chip o">OTHER</span></div><div class="ex">Family history of <span class="cond">COPD</span> in <span class="fam">his uncle</span>.</div><div class="src">ConText</div></div>
+    </div>
+  </div>
+
+  <div class="grp">
+    <div class="gh"><span class="k bad">Held-out structures</span><span class="d">the cue misleads, is far away, abbreviated, negated, or carried by a pronoun</span></div>
+    <div class="cards">
+      <div class="card held"><div class="top"><span class="nm">Informant</span><span class="chip p">PATIENT</span></div><div class="ex"><span class="fam">Her mother</span> reports that <span class="pat">Ms. Chen</span> has <span class="cond">pancreatitis</span>.</div><div class="src">ConText</div></div>
+      <div class="card held"><div class="top"><span class="nm">Patient-subject family history</span><span class="chip o">OTHER</span></div><div class="ex"><span class="pat">Mr. Kim</span> has a family history of <span class="cond">lupus</span>.</div><div class="src">ConText</div></div>
+      <div class="card held"><div class="top"><span class="nm">Negation scope</span><span class="chip p">PATIENT</span></div><div class="ex">No family history of anemia; <span class="pat">Mr. Brown</span> has <span class="cond">glaucoma</span>.</div><div class="src">ConText</div></div>
+      <div class="card held"><div class="top"><span class="nm">Multi-relative negation</span><span class="chip o">OTHER</span></div><div class="ex"><span class="pat">Ms. Okafor</span> has depression, but <span class="fam">her cousin</span> has no history of <span class="cond">eczema</span>.</div><div class="src">Silva 2020</div></div>
+      <div class="card held"><div class="top"><span class="nm">Pronoun coreference</span><span class="chip o">OTHER</span></div><div class="ex"><span class="pat">The pt</span> came in today with <span class="fam">his aunt</span>. She has <span class="cond">kidney stones</span>.</div><div class="src">Silva 2020</div></div>
+      <div class="card held"><div class="top"><span class="nm">Contrast</span><span class="chip p">PATIENT</span></div><div class="ex"><span class="pat">Mr. Haddad</span> has <span class="cond">hypertension</span>, and <span class="fam">his cousin</span> has sleep apnea.</div><div class="src">Silva 2020</div></div>
+      <div class="card held"><div class="top"><span class="nm">Long distance</span><span class="chip p">PATIENT</span></div><div class="ex"><span class="pat">Mr. Patel</span>, who was brought in today by <span class="fam">his mother</span>, has <span class="cond">kidney stones</span>.</div><div class="src">Silva 2020</div></div>
+      <div class="card held"><div class="top"><span class="nm">Non-blood relative</span><span class="chip o">OTHER</span></div><div class="ex"><span class="pat">Mr. Brown</span> lives with his wife, who has <span class="cond">migraines</span>.</div><div class="src">Silva 2020; Shen 2021</div></div>
+      <div class="card held"><div class="top"><span class="nm">Section fragment</span><span class="chip p">PATIENT</span></div><div class="ex mono" style="font-size:13px">PMH: <span class="cond">epilepsy</span>. FHx: HTN -- <span class="fam">maternal aunt</span>.</div><div class="src">Wang 2017</div></div>
+      <div class="card held"><div class="top"><span class="nm">Age and death</span><span class="chip o">OTHER</span></div><div class="ex"><span class="fam">Her father</span> died at age 71 of complications of <span class="cond">congestive heart failure</span>.</div><div class="src">Wang 2017; Shen 2021</div></div>
+    </div>
+  </div>
+  <div class="note"><span class="cond">condition</span> target · <span class="fam">relative</span> family word · <span class="pat">patient</span> patient mention · 1,500 minimal pairs swap the experiencer while keeping every word</div>
+</div></body></html>

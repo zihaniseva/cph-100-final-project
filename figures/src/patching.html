@@ -1,0 +1,61 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="style.css">
+<style>
+.wrap{position:relative}
+.run{display:grid;grid-template-columns:150px repeat(8,92px) 40px 150px;align-items:center;column-gap:6px}
+.rl{font-weight:600;font-size:16px}
+.rl small{display:block;font-weight:400;font-size:12.5px;color:var(--muted)}
+.tok{font-size:15px;text-align:center;padding:8px 0;background:var(--box);border:1.5px solid var(--edge);border-radius:6px}
+.tok.c{background:rgba(15,107,110,.13);border-color:var(--teal);font-weight:600}
+.tok.f{border-style:dashed;border-color:var(--red)}
+.ans{border:2px solid;border-radius:8px;padding:8px 12px;font-family:var(--mono);font-size:13px}
+.stack{display:grid;grid-template-columns:150px repeat(8,92px);column-gap:6px;margin:6px 0}
+.lay{display:flex;flex-direction:column;gap:3px;align-items:center}
+.lay i{display:block;width:60px;height:9px;border-radius:2px;background:#e3e7ea}
+.lay i.on{background:var(--red)}
+.mid{height:56px}
+.lbl{font-family:var(--mono);font-size:12px;color:var(--muted);text-align:right;align-self:center}
+svg.ov{position:absolute;left:0;top:0;pointer-events:none}
+.out{display:flex;gap:14px}
+.out .box{flex:1}
+</style></head><body>
+<div class="figure" style="width:1220px">
+  <div class="title">Stretch goal: patching tests whether the model uses what the probe finds</div>
+  <div class="sub">Copy one hidden state from a clean run into a minimal-pair run. If the answer moves, that layer and position carry the experiencer.</div>
+  <div class="wrap" id="w">
+    <div class="run">
+      <div class="rl">Clean run<small>answer: mother</small></div>
+      <div class="tok">The</div><div class="tok">patient</div><div class="tok">reports</div><div class="tok">that</div><div class="tok">her</div><div class="tok f">mother</div><div class="tok">has</div><div class="tok c" id="c1">headaches</div>
+      <div></div><div class="ans" style="border-color:var(--amber);color:var(--amber)">Who has headaches?<br>→ mother</div>
+    </div>
+    <div class="stack">
+      <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div class="lbl">layers 0 … L</div>
+      <div class="lay" id="l1"><i></i><i></i><i class="on"></i><i></i><i></i></div>
+    </div>
+    <div class="mid"></div>
+    <div class="stack">
+      <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div class="lbl">layers 0 … L</div>
+      <div class="lay" id="l2"><i></i><i></i><i class="on"></i><i></i><i></i></div>
+    </div>
+    <div class="run">
+      <div class="rl">Patched run<small>normally: patient</small></div>
+      <div class="tok">Her</div><div class="tok f">mother</div><div class="tok">reports</div><div class="tok">that</div><div class="tok">the</div><div class="tok">patient</div><div class="tok">has</div><div class="tok c">headaches</div>
+      <div></div><div class="ans" style="border-color:var(--teal);color:var(--teal)">Who has headaches?<br>→ patient … or mother?</div>
+    </div>
+    <svg class="ov" id="ov"></svg>
+  </div>
+  <div class="out">
+    <div class="box"><div class="h" style="font-size:15px">Measure</div><div class="m">logit("mother") − logit("patient"), as a share of the clean run's gap restored (0 = none, 1 = full)</div></div>
+    <div class="box"><div class="h" style="font-size:15px">Sweep</div><div class="m">every layer × key position (relative, patient, condition, last token) → a heatmap</div></div>
+    <div class="box" style="border-color:var(--green);border-width:2px"><div class="h good" style="font-size:15px">Claim it supports</div><div class="m">these activations are causally used, not just decodable</div></div>
+  </div>
+</div>
+<script>
+const w=document.getElementById('w').getBoundingClientRect();
+const a=document.querySelector('#l1 i.on').getBoundingClientRect(), b=document.querySelector('#l2 i.on').getBoundingClientRect();
+const ov=document.getElementById('ov'); ov.setAttribute('width',w.width); ov.setAttribute('height',w.height);
+const x1=a.right-w.left+4, xl=a.left-w.left, y1=a.top+a.height/2-w.top, y2=b.top+b.height/2-w.top;
+ov.innerHTML=`<defs><marker id="m" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#c2432d"/></marker></defs>
+<path d="M${x1} ${y1} C ${x1+70} ${y1}, ${x1+70} ${y2}, ${x1+6} ${y2}" fill="none" stroke="#c2432d" stroke-width="2.5" stroke-dasharray="6 5" marker-end="url(#m)"/>
+<text x="${xl-24}" y="${(y1+y2)/2+5}" text-anchor="end" font-family="DejaVu Sans Mono" font-size="13.5" fill="#c2432d">copy the clean hidden state at layer ℓ, condition token/text>`;
+</script>
+</body></html>

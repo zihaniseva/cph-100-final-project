@@ -15,7 +15,7 @@ Run from the repo root:
 Test the whole pipeline without an API key or any cost:
     python benchmark/run_gemini.py --method zero_shot --model fake --dry-run
 
-MODEL is the exact model name from AI Studio (for example "gemini-2.5-flash").
+MODEL is the exact model name from AI Studio (for example "gemini-3.8-flash").
 Write the name and the `model_version` saved in the results into your write-up.
 
 The run is resumable: rerun the same command and it skips sentences that
@@ -124,6 +124,9 @@ def main():
                     break
                 except Exception as e:                # noqa: BLE001
                     error = f"{type(e).__name__}: {e}"
+                    if getattr(e, "code", None) in (400, 401, 403, 404):
+                        # wrong model name, bad key, no permission: retrying won't help
+                        sys.exit(f"Stopping: {error[:300]}\nFix this, then rerun the same command.")
                     wait = 2 ** attempt * 5
                     print(f"  id {r['id']}: {error[:120]} - retrying in {wait}s")
                     time.sleep(wait)

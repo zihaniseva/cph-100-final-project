@@ -1,0 +1,601 @@
+id,test_set,structure,frame_id,text,condition,condition_surface,char_start,char_end,label,pair_id,target_negated,relation,source
+10051,B_stress,multi_relative_negation,multi_relative_negation.3,"His maternal grandmother has lung cancer, but Mr. Kim has no history of tuberculosis.",tuberculosis,tuberculosis,72,84,PATIENT,,true,blood,Silva 2020
+8633,A_typical,fh_trigger_phrase,fh_trigger_phrase.0,Family history of sleep apnea in his paternal uncle.,sleep apnea,sleep apnea,18,29,OTHER,,false,blood,ConText (Harkema 2009)
+4593,B_stress,non_blood_relative,non_blood_relative.0,The patient's partner has multiple sclerosis.,multiple sclerosis,multiple sclerosis,26,44,OTHER,,false,spouse,Silva 2020; Shen 2021
+4675,B_stress,contrast,contrast.1,"Mr. Haddad has eczema, and his sister has Crohn's disease.",Crohn's disease,Crohn's disease,42,57,OTHER,mp01495,false,blood,Silva 2020
+11149,B_stress,long_distance,long_distance.0,"His uncle, who was seen at several clinics over the past year, has Crohn's disease.",Crohn's disease,Crohn's disease,67,82,OTHER,,false,blood,Silva 2020
+6623,B_stress,negation_scope,negation_scope.3,Mr. Patel denies any family history of atrial fibrillation.,atrial fibrillation,atrial fibrillation,39,58,OTHER,,true,none,ConText (Harkema 2009)
+4453,B_stress,contrast,contrast.1,"Ms. Garcia has scoliosis, and her maternal aunt has atrial fibrillation.",atrial fibrillation,atrial fibrillation,52,71,OTHER,mp01418,false,blood,Silva 2020
+3385,B_stress,pronoun_coreference,pronoun_coreference.1,Mr. Patel came in today with his maternal aunt. He has multiple sclerosis.,multiple sclerosis,multiple sclerosis,55,73,PATIENT,mp00384,false,blood,Silva 2020
+1458,B_stress,pronoun_coreference,pronoun_coreference.1,Mr. Brown came in today with his grandmother. He has Parkinson's disease.,Parkinson's disease,Parkinson's disease,53,72,PATIENT,mp00471,false,blood,Silva 2020
+5796,B_stress,informant,informant.0,His aunt reports that Mr. Haddad has sleep apnea.,sleep apnea,sleep apnea,37,48,PATIENT,mp00650,false,blood,ConText (Harkema 2009)
+8956,B_stress,informant,informant.0,Her maternal aunt reports that Ms. Garcia has colon cancer.,colon cancer,colon cancer,46,58,PATIENT,mp00790,false,blood,ConText (Harkema 2009)
+8026,B_stress,patient_subject_family_history,patient_subject_family_history.1,Ms. Okafor has a family history of Parkinson's disease.,Parkinson's disease,Parkinson's disease,35,54,OTHER,mp01091,false,none,ConText (Harkema 2009)
+3144,B_stress,section_fragment,section_fragment.3,FAMILY HISTORY: noncontributory. ASSESSMENT: Ms. Garcia with DM2.,diabetes,DM2,61,64,PATIENT,,false,none,Wang 2017
+6202,B_stress,negation_scope,negation_scope.2,"Ms. Nguyen denies bipolar disorder, but her cousin has sleep apnea.",sleep apnea,sleep apnea,55,66,OTHER,,false,blood,ConText (Harkema 2009)
+6157,B_stress,negation_scope,negation_scope.1,The pt has epilepsy; family history is negative.,epilepsy,epilepsy,11,19,PATIENT,,false,none,ConText (Harkema 2009)
+7649,B_stress,informant,informant.1,Ms. Garcia reports that her maternal aunt has colon cancer.,colon cancer,colon cancer,46,58,OTHER,mp00790,false,blood,ConText (Harkema 2009)
+3916,B_stress,pronoun_coreference,pronoun_coreference.0,Ms. Nguyen came in today with her half-brother. He has kidney stones.,kidney stones,kidney stones,55,68,OTHER,mp00344,false,blood,Silva 2020
+8773,B_stress,contrast,contrast.0,"Ms. Okafor has scoliosis, and her maternal aunt has eczema.",scoliosis,scoliosis,15,24,PATIENT,mp01389,false,blood,Silva 2020
+2536,B_stress,section_fragment,section_fragment.0,FHx: Huntington's disease -- mother.,Huntington's disease,Huntington's disease,5,25,OTHER,,false,blood,Wang 2017
+5174,B_stress,multi_relative_negation,multi_relative_negation.1,"Ms. Okafor has epilepsy, but her son has no history of kidney stones.",kidney stones,kidney stones,55,68,OTHER,,true,blood,Silva 2020
+1160,B_stress,non_blood_relative,non_blood_relative.0,Mr. Patel's wife has melanoma.,melanoma,melanoma,21,29,OTHER,,false,spouse,Silva 2020; Shen 2021
+3702,A_typical,narrative,narrative.3,Her brother was diagnosed with colon cancer.,colon cancer,colon cancer,31,43,OTHER,,false,blood,baseline
+5031,A_typical,narrative,narrative.1,Mr. Patel was diagnosed with depression last year.,depression,depression,29,39,PATIENT,,false,none,baseline
+116,B_stress,multi_relative_negation,multi_relative_negation.0,"His son had colon cancer, but his brother has no history of a seizure disorder.",colon cancer,colon cancer,12,24,OTHER,,false,blood,Silva 2020
+1254,B_stress,age_and_death,age_and_death.2,Her grandmother died at age 41 of complications of Parkinson's disease.,Parkinson's disease,Parkinson's disease,51,70,OTHER,,false,blood,Wang 2017; Shen 2021
+9746,B_stress,section_fragment,section_fragment.1,"FAMILY HISTORY: paternal uncle: arthritis, schizophrenia.",arthritis,arthritis,32,41,OTHER,,false,blood,Wang 2017
+6713,B_stress,informant,informant.0,Her paternal grandfather reports that Ms. Nguyen has congestive heart failure.,congestive heart failure,congestive heart failure,53,77,PATIENT,mp00783,false,blood,ConText (Harkema 2009)
+8115,B_stress,informant,informant.0,His maternal grandmother reports that Mr. Haddad has high cholesterol.,high cholesterol,high cholesterol,53,69,PATIENT,mp00738,false,blood,ConText (Harkema 2009)
+3913,B_stress,non_blood_relative,non_blood_relative.2,"The patient, who lives with his partner, has arthritis.",arthritis,arthritis,45,54,PATIENT,,false,spouse,Silva 2020; Shen 2021
+6221,B_stress,section_fragment,section_fragment.0,FHx: anemia -- half-brother.,anemia,anemia,5,11,OTHER,,false,blood,Wang 2017
+969,B_stress,long_distance,long_distance.0,"Her paternal uncle, who was seen at several clinics over the past year, has glaucoma.",glaucoma,glaucoma,76,84,OTHER,,false,blood,Silva 2020
+7951,B_stress,long_distance,long_distance.1,"The patient, who was brought in today by her father, has psoriasis.",psoriasis,psoriasis,57,66,PATIENT,,false,blood,Silva 2020
+6910,B_stress,non_blood_relative,non_blood_relative.0,Ms. Nguyen's partner has diabetes.,diabetes,diabetes,25,33,OTHER,,false,spouse,Silva 2020; Shen 2021
+6613,B_stress,long_distance,long_distance.0,"Her maternal aunt, who was seen at several clinics over the past year, has breast cancer.",breast cancer,breast cancer,75,88,OTHER,,false,blood,Silva 2020
+5472,B_stress,pronoun_coreference,pronoun_coreference.0,Ms. Nguyen came in today with her paternal uncle. He has a seizure disorder.,a seizure disorder,a seizure disorder,57,75,OTHER,mp00565,false,blood,Silva 2020
+9724,B_stress,contrast,contrast.1,"Mr. Kim has kidney stones, and his aunt has Crohn's disease.",Crohn's disease,Crohn's disease,44,59,OTHER,mp01359,false,blood,Silva 2020
+8146,B_stress,contrast,contrast.1,"Mr. Haddad has anemia, and his grandmother has schizophrenia.",schizophrenia,schizophrenia,47,60,OTHER,mp01469,false,blood,Silva 2020
+8628,B_stress,multi_relative_negation,multi_relative_negation.1,"The patient has sleep apnea, but her grandmother has no history of eczema.",eczema,eczema,67,73,OTHER,,true,blood,Silva 2020
+8925,B_stress,multi_relative_negation,multi_relative_negation.0,"Her mother had celiac disease, but her sister has no history of chronic kidney disease.",celiac disease,celiac disease,15,29,OTHER,,false,blood,Silva 2020
+2617,B_stress,informant,informant.1,Mr. Kim reports that his uncle has epilepsy.,epilepsy,epilepsy,35,43,OTHER,mp00831,false,blood,ConText (Harkema 2009)
+2889,B_stress,section_fragment,section_fragment.3,FAMILY HISTORY: noncontributory. ASSESSMENT: Mr. Novak with diabetes.,diabetes,diabetes,60,68,PATIENT,,false,none,Wang 2017
+5701,B_stress,patient_subject_family_history,patient_subject_family_history.1,Mr. Novak has a family history of bipolar disorder.,bipolar disorder,bipolar disorder,34,50,OTHER,mp01168,false,none,ConText (Harkema 2009)
+10914,B_stress,patient_subject_family_history,patient_subject_family_history.1,Mr. Haddad has a family history of celiac disease.,celiac disease,celiac disease,35,49,OTHER,mp01084,false,none,ConText (Harkema 2009)
+9430,B_stress,age_and_death,age_and_death.3,The pt was diagnosed with hepatitis C at age 67; her daughter died at 89 of colon cancer.,hepatitis C,hepatitis C,26,37,PATIENT,,false,blood,Wang 2017; Shen 2021
+607,B_stress,contrast,contrast.0,"Ms. Chen has gout, and her brother has eczema.",gout,gout,13,17,PATIENT,mp01456,false,blood,Silva 2020
+5754,A_typical,narrative,narrative.2,His brother has psoriasis.,psoriasis,psoriasis,16,25,OTHER,,false,blood,baseline
+5557,B_stress,pronoun_coreference,pronoun_coreference.0,Mr. Haddad came in today with his grandmother. She has scoliosis.,scoliosis,scoliosis,55,64,OTHER,mp00576,false,blood,Silva 2020
+10599,B_stress,patient_subject_family_history,patient_subject_family_history.0,Mr. Novak has a history of multiple sclerosis.,multiple sclerosis,multiple sclerosis,27,45,PATIENT,mp00979,false,none,ConText (Harkema 2009)
+310,B_stress,multi_relative_negation,multi_relative_negation.3,"His mother has schizophrenia, but Mr. Kim has no history of colon cancer.",colon cancer,colon cancer,60,72,PATIENT,,true,blood,Silva 2020
+2331,B_stress,multi_relative_negation,multi_relative_negation.1,"Mr. Novak has celiac disease, but his sister has no history of eczema.",eczema,eczema,63,69,OTHER,,true,blood,Silva 2020
+11047,B_stress,patient_subject_family_history,patient_subject_family_history.0,Mr. Haddad has a history of bipolar disorder.,bipolar disorder,bipolar disorder,28,44,PATIENT,mp01136,false,none,ConText (Harkema 2009)
+2760,B_stress,long_distance,long_distance.0,"His cousin, who was seen at several clinics over the past year, has tuberculosis.",tuberculosis,tuberculosis,68,80,OTHER,,false,blood,Silva 2020
+3983,B_stress,multi_relative_negation,multi_relative_negation.2,"Mrs. Lopez has kidney stones, but her father has no history of hypertension.",kidney stones,kidney stones,15,28,PATIENT,,false,blood,Silva 2020
+8577,B_stress,pronoun_coreference,pronoun_coreference.0,The pt came in today with her paternal grandfather. He has colon cancer.,colon cancer,colon cancer,59,71,OTHER,mp00574,false,blood,Silva 2020
+3790,B_stress,patient_subject_family_history,patient_subject_family_history.0,Ms. Chen has a history of breast cancer.,breast cancer,breast cancer,26,39,PATIENT,mp00989,false,none,ConText (Harkema 2009)
+49,B_stress,patient_subject_family_history,patient_subject_family_history.1,The patient has a family history of a seizure disorder.,a seizure disorder,a seizure disorder,36,54,OTHER,mp01135,false,none,ConText (Harkema 2009)
+8452,B_stress,age_and_death,age_and_death.1,Ms. Garcia was diagnosed with COPD at age 44.,COPD,COPD,30,34,PATIENT,mp00263,false,none,Wang 2017; Shen 2021
+2322,B_stress,negation_scope,negation_scope.3,Ms. Garcia denies any family history of hypertension.,hypertension,hypertension,40,52,OTHER,,true,none,ConText (Harkema 2009)
+4251,B_stress,long_distance,long_distance.0,"His aunt, who was seen at several clinics over the past year, has diabetes.",diabetes,diabetes,66,74,OTHER,,false,blood,Silva 2020
+7706,A_typical,narrative,narrative.1,Ms. Okafor was diagnosed with migraines last year.,migraines,migraines,30,39,PATIENT,,false,none,baseline
+2300,A_typical,narrative,narrative.0,Ms. Chen has high cholesterol.,high cholesterol,high cholesterol,13,29,PATIENT,,false,none,baseline
+3788,B_stress,pronoun_coreference,pronoun_coreference.0,Mr. Haddad came in today with his mother. She has breast cancer.,breast cancer,breast cancer,50,63,OTHER,mp00458,false,blood,Silva 2020
+3378,B_stress,patient_subject_family_history,patient_subject_family_history.0,Mr. Novak has a history of bipolar disorder.,bipolar disorder,bipolar disorder,27,43,PATIENT,mp01168,false,none,ConText (Harkema 2009)
+4875,B_stress,non_blood_relative,non_blood_relative.3,Her husband reports that Ms. Okafor has Crohn's disease.,Crohn's disease,Crohn's disease,40,55,PATIENT,,false,spouse,Silva 2020; Shen 2021
+3268,B_stress,multi_relative_negation,multi_relative_negation.2,"Mr. Patel has tuberculosis, but his son has no history of anemia.",tuberculosis,tuberculosis,14,26,PATIENT,,false,blood,Silva 2020
+5320,B_stress,patient_subject_family_history,patient_subject_family_history.0,The pt has a history of anxiety.,anxiety,anxiety,24,31,PATIENT,mp01181,false,none,ConText (Harkema 2009)
+693,B_stress,age_and_death,age_and_death.1,Mr. Patel was diagnosed with diabetes at age 36.,diabetes,diabetes,29,37,PATIENT,mp00294,false,none,Wang 2017; Shen 2021
+6542,B_stress,non_blood_relative,non_blood_relative.1,"Mr. Patel lives with his partner, who has melanoma.",melanoma,melanoma,42,50,OTHER,,false,spouse,Silva 2020; Shen 2021
+10810,B_stress,age_and_death,age_and_death.2,His uncle died at age 50 of complications of Huntington's disease.,Huntington's disease,Huntington's disease,45,65,OTHER,,false,blood,Wang 2017; Shen 2021
+6450,B_stress,age_and_death,age_and_death.0,His brother was diagnosed with melanoma at age 51.,melanoma,melanoma,31,39,OTHER,mp00164,false,blood,Wang 2017; Shen 2021
+4754,B_stress,pronoun_coreference,pronoun_coreference.1,The pt came in today with her paternal grandfather. She has colon cancer.,colon cancer,colon cancer,60,72,PATIENT,mp00574,false,blood,Silva 2020
+3720,B_stress,non_blood_relative,non_blood_relative.2,"Mr. Novak, who lives with his partner, has diabetes.",diabetes,diabetes,43,51,PATIENT,,false,spouse,Silva 2020; Shen 2021
+4296,B_stress,non_blood_relative,non_blood_relative.3,His wife reports that Mr. Haddad has depression.,depression,depression,37,47,PATIENT,,false,spouse,Silva 2020; Shen 2021
+2959,B_stress,long_distance,long_distance.1,"Ms. Chen, who was brought in today by her maternal aunt, has Parkinson's disease.",Parkinson's disease,Parkinson's disease,61,80,PATIENT,,false,blood,Silva 2020
+9417,B_stress,contrast,contrast.0,"Ms. Garcia has Crohn's disease, and her maternal grandmother has breast cancer.",Crohn's disease,Crohn's disease,15,30,PATIENT,mp01496,false,blood,Silva 2020
+4992,B_stress,negation_scope,negation_scope.1,The pt has bipolar disorder; family history is negative.,bipolar disorder,bipolar disorder,11,27,PATIENT,,false,none,ConText (Harkema 2009)
+11217,B_stress,negation_scope,negation_scope.3,Mr. Novak denies any family history of eczema.,eczema,eczema,39,45,OTHER,,true,none,ConText (Harkema 2009)
+50,B_stress,age_and_death,age_and_death.3,The patient was diagnosed with multiple sclerosis at age 42; her paternal uncle died at 80 of hepatitis C.,multiple sclerosis,multiple sclerosis,31,49,PATIENT,,false,blood,Wang 2017; Shen 2021
+8882,B_stress,negation_scope,negation_scope.1,Mrs. Lopez has lung cancer; family history is negative.,lung cancer,lung cancer,15,26,PATIENT,,false,none,ConText (Harkema 2009)
+1323,B_stress,pronoun_coreference,pronoun_coreference.1,Mr. Patel came in today with his maternal aunt. He has anxiety.,anxiety,anxiety,55,62,PATIENT,mp00594,false,blood,Silva 2020
+6917,B_stress,section_fragment,section_fragment.3,FAMILY HISTORY: noncontributory. ASSESSMENT: Ms. Chen with lupus.,lupus,lupus,59,64,PATIENT,,false,none,Wang 2017
+6516,B_stress,informant,informant.0,Her cousin reports that Ms. Okafor has multiple sclerosis.,multiple sclerosis,multiple sclerosis,39,57,PATIENT,mp00680,false,blood,ConText (Harkema 2009)
+410,B_stress,patient_subject_family_history,patient_subject_family_history.0,Ms. Okafor has a history of Parkinson's disease.,Parkinson's disease,Parkinson's disease,28,47,PATIENT,mp01091,false,none,ConText (Harkema 2009)
+3342,B_stress,multi_relative_negation,multi_relative_negation.3,"His paternal uncle has melanoma, but the pt has no history of anxiety.",anxiety,anxiety,62,69,PATIENT,,true,blood,Silva 2020
+2345,B_stress,contrast,contrast.1,"Ms. Okafor has eczema, and her maternal aunt has scoliosis.",scoliosis,scoliosis,49,58,OTHER,mp01389,false,blood,Silva 2020
+6433,B_stress,section_fragment,section_fragment.2,PMH: Parkinson's disease. FHx: melanoma -- daughter.,Parkinson's disease,Parkinson's disease,5,24,PATIENT,,false,blood,Wang 2017
+9497,B_stress,pronoun_coreference,pronoun_coreference.0,The pt came in today with his maternal aunt. She has Parkinson's disease.,Parkinson's disease,Parkinson's disease,53,72,OTHER,mp00310,false,blood,Silva 2020
+2221,B_stress,age_and_death,age_and_death.2,Her grandmother died at age 67 of complications of COPD.,COPD,COPD,51,55,OTHER,,false,blood,Wang 2017; Shen 2021
+4180,B_stress,contrast,contrast.0,"Mr. Kim has Crohn's disease, and his aunt has kidney stones.",Crohn's disease,Crohn's disease,12,27,PATIENT,mp01359,false,blood,Silva 2020
+7056,B_stress,informant,informant.1,Mr. Brown reports that his cousin has lupus.,lupus,lupus,38,43,OTHER,mp00675,false,blood,ConText (Harkema 2009)
+10394,B_stress,long_distance,long_distance.1,"Ms. Garcia, who was brought in today by her brother, has gout.",gout,gout,57,61,PATIENT,,false,blood,Silva 2020
+5994,B_stress,non_blood_relative,non_blood_relative.3,Her partner reports that the pt has high cholesterol.,high cholesterol,high cholesterol,36,52,PATIENT,,false,spouse,Silva 2020; Shen 2021
+5025,A_typical,fh_trigger_phrase,fh_trigger_phrase.2,Mr. Brown's past medical history is significant for coronary artery disease.,coronary artery disease,coronary artery disease,52,75,PATIENT,,false,none,ConText (Harkema 2009)
+1991,B_stress,multi_relative_negation,multi_relative_negation.0,"His son had anemia, but his uncle has no history of depression.",anemia,anemia,12,18,OTHER,,false,blood,Silva 2020
+8769,B_stress,section_fragment,section_fragment.3,FAMILY HISTORY: noncontributory. ASSESSMENT: Mr. Novak with Huntington's disease.,Huntington's disease,Huntington's disease,60,80,PATIENT,,false,none,Wang 2017
+4103,B_stress,informant,informant.1,Mr. Kim reports that his father has glaucoma.,glaucoma,glaucoma,36,44,OTHER,mp00737,false,blood,ConText (Harkema 2009)
+6065,A_typical,fh_trigger_phrase,fh_trigger_phrase.1,Family history is significant for Parkinson's disease in his son.,Parkinson's disease,Parkinson's disease,34,53,OTHER,,false,blood,ConText (Harkema 2009)
+10371,B_stress,age_and_death,age_and_death.2,His maternal grandmother died at age 66 of complications of COPD.,COPD,COPD,60,64,OTHER,,false,blood,Wang 2017; Shen 2021
+3482,A_typical,fh_trigger_phrase,fh_trigger_phrase.1,Family history is significant for colon cancer in her paternal uncle.,colon cancer,colon cancer,34,46,OTHER,,false,blood,ConText (Harkema 2009)
+10337,B_stress,section_fragment,section_fragment.2,PMH: lupus. FHx: anemia -- son.,lupus,lupus,5,10,PATIENT,,false,blood,Wang 2017
+9089,B_stress,informant,informant.1,Mr. Haddad reports that his maternal grandmother has high cholesterol.,high cholesterol,high cholesterol,53,69,OTHER,mp00738,false,blood,ConText (Harkema 2009)
+6421,B_stress,long_distance,long_distance.1,"The pt, who was brought in today by her cousin, has migraines.",migraines,migraines,52,61,PATIENT,,false,blood,Silva 2020
+5322,B_stress,non_blood_relative,non_blood_relative.1,"Mr. Kim lives with his wife, who has a seizure disorder.",a seizure disorder,a seizure disorder,37,55,OTHER,,false,spouse,Silva 2020; Shen 2021
+5076,B_stress,pronoun_coreference,pronoun_coreference.1,Ms. Nguyen came in today with her paternal uncle. She has a seizure disorder.,a seizure disorder,a seizure disorder,58,76,PATIENT,mp00565,false,blood,Silva 2020
+5554,B_stress,contrast,contrast.1,"Ms. Okafor has hypertension, and her son has Parkinson's disease.",Parkinson's disease,Parkinson's disease,45,64,OTHER,mp01405,false,blood,Silva 2020
+9115,B_stress,long_distance,long_distance.0,"His aunt, who was seen at several clinics over the past year, has hypertension.",hypertension,hypertension,66,78,OTHER,,false,blood,Silva 2020
+10953,B_stress,section_fragment,section_fragment.0,FHx: migraines -- grandfather.,migraines,migraines,5,14,OTHER,,false,blood,Wang 2017
+2269,B_stress,negation_scope,negation_scope.2,"Mrs. Lopez denies atrial fibrillation, but her grandfather has arthritis.",arthritis,arthritis,63,72,OTHER,,false,blood,ConText (Harkema 2009)
+6064,B_stress,non_blood_relative,non_blood_relative.1,"Ms. Okafor lives with her husband, who has bipolar disorder.",bipolar disorder,bipolar disorder,43,59,OTHER,,false,spouse,Silva 2020; Shen 2021
+9269,B_stress,contrast,contrast.1,"Mrs. Lopez has migraines, and her father has bipolar disorder.",bipolar disorder,bipolar disorder,45,61,OTHER,mp01446,false,blood,Silva 2020
+2528,B_stress,non_blood_relative,non_blood_relative.2,"Ms. Chen, who lives with her husband, has asthma.",asthma,asthma,42,48,PATIENT,,false,spouse,Silva 2020; Shen 2021
+3896,A_typical,fh_trigger_phrase,fh_trigger_phrase.0,Family history of asthma in her grandfather.,asthma,asthma,18,24,OTHER,,false,blood,ConText (Harkema 2009)
+7213,B_stress,section_fragment,section_fragment.1,"FAMILY HISTORY: aunt: Parkinson's disease, atrial fibrillation.",Parkinson's disease,Parkinson's disease,22,41,OTHER,,false,blood,Wang 2017
+2428,B_stress,contrast,contrast.1,"Mr. Brown has sleep apnea, and his cousin has anemia.",anemia,anemia,46,52,OTHER,mp01437,false,blood,Silva 2020
+5277,B_stress,pronoun_coreference,pronoun_coreference.0,Ms. Nguyen came in today with her paternal uncle. He has hepatitis C.,hepatitis C,hepatitis C,57,68,OTHER,mp00561,false,blood,Silva 2020
+4810,B_stress,long_distance,long_distance.1,"Ms. Okafor, who was brought in today by her half-brother, has breast cancer.",breast cancer,breast cancer,62,75,PATIENT,,false,blood,Silva 2020
+8610,B_stress,negation_scope,negation_scope.0,No family history of congestive heart failure; Mr. Brown has melanoma.,melanoma,melanoma,61,69,PATIENT,,false,none,ConText (Harkema 2009)
+5063,B_stress,age_and_death,age_and_death.3,The patient was diagnosed with breast cancer at age 46; his mother died at 63 of multiple sclerosis.,breast cancer,breast cancer,31,44,PATIENT,,false,blood,Wang 2017; Shen 2021
+5215,B_stress,age_and_death,age_and_death.0,Her daughter was diagnosed with melanoma at age 46.,melanoma,melanoma,32,40,OTHER,mp00061,false,blood,Wang 2017; Shen 2021
+8978,B_stress,negation_scope,negation_scope.0,No family history of chronic kidney disease; Mr. Novak has Huntington's disease.,Huntington's disease,Huntington's disease,59,79,PATIENT,,false,none,ConText (Harkema 2009)
+9882,A_typical,narrative,narrative.3,Her half-brother was diagnosed with high cholesterol.,high cholesterol,high cholesterol,36,52,OTHER,,false,blood,baseline
+3881,B_stress,patient_subject_family_history,patient_subject_family_history.0,Ms. Garcia has a history of a seizure disorder.,a seizure disorder,a seizure disorder,28,46,PATIENT,mp01143,false,none,ConText (Harkema 2009)
+2527,B_stress,pronoun_coreference,pronoun_coreference.0,Mr. Brown came in today with his aunt. She has congestive heart failure.,congestive heart failure,congestive heart failure,47,71,OTHER,mp00459,false,blood,Silva 2020
+10817,A_typical,narrative,narrative.1,Ms. Garcia was diagnosed with migraines last year.,migraines,migraines,30,39,PATIENT,,false,none,baseline
+9703,B_stress,multi_relative_negation,multi_relative_negation.0,"His grandfather had COPD, but his mother has no history of Parkinson's disease.",COPD,COPD,20,24,OTHER,,false,blood,Silva 2020
+6627,B_stress,age_and_death,age_and_death.2,Her paternal grandfather died at age 39 of complications of colon cancer.,colon cancer,colon cancer,60,72,OTHER,,false,blood,Wang 2017; Shen 2021
+1968,A_typical,narrative,narrative.0,Ms. Chen has diabetes.,diabetes,diabetes,13,21,PATIENT,,false,none,baseline
+3551,A_typical,narrative,narrative.1,Ms. Garcia was diagnosed with diabetes last year.,diabetes,diabetes,30,38,PATIENT,,false,none,baseline
+6025,B_stress,pronoun_coreference,pronoun_coreference.0,Ms. Nguyen came in today with her father. He has eczema.,eczema,eczema,49,55,OTHER,mp00323,false,blood,Silva 2020
+7006,B_stress,informant,informant.1,The pt reports that his mother has asthma.,asthma,asthma,35,41,OTHER,mp00832,false,blood,ConText (Harkema 2009)
+2312,B_stress,pronoun_coreference,pronoun_coreference.1,Mr. Patel came in today with his mother. He has Crohn's disease.,Crohn's disease,Crohn's disease,48,63,PATIENT,mp00581,false,blood,Silva 2020
+7441,B_stress,negation_scope,negation_scope.0,No family history of arthritis; the pt has glaucoma.,glaucoma,glaucoma,43,51,PATIENT,,false,none,ConText (Harkema 2009)
+4457,B_stress,patient_subject_family_history,patient_subject_family_history.0,Mr. Novak has a history of atrial fibrillation.,atrial fibrillation,atrial fibrillation,27,46,PATIENT,mp00952,false,none,ConText (Harkema 2009)
+4609,A_typical,fh_trigger_phrase,fh_trigger_phrase.3,Ms. Chen reports a past history of breast cancer.,breast cancer,breast cancer,35,48,PATIENT,,false,none,ConText (Harkema 2009)
+8065,B_stress,negation_scope,negation_scope.2,"Ms. Okafor denies colon cancer, but her cousin has multiple sclerosis.",multiple sclerosis,multiple sclerosis,51,69,OTHER,,false,blood,ConText (Harkema 2009)
+905,B_stress,pronoun_coreference,pronoun_coreference.0,Mr. Haddad came in today with his maternal grandmother. She has COPD.,COPD,COPD,64,68,OTHER,mp00502,false,blood,Silva 2020
+2999,B_stress,multi_relative_negation,multi_relative_negation.3,"His mother has gout, but Mr. Patel has no history of hypertension.",hypertension,hypertension,53,65,PATIENT,,true,blood,Silva 2020
+2941,B_stress,informant,informant.1,Mrs. Lopez reports that her brother has sleep apnea.,sleep apnea,sleep apnea,40,51,OTHER,mp00700,false,blood,ConText (Harkema 2009)
+375,B_stress,long_distance,long_distance.1,"Ms. Nguyen, who was brought in today by her uncle, has COPD.",COPD,COPD,55,59,PATIENT,,false,blood,Silva 2020
+6206,B_stress,age_and_death,age_and_death.0,His aunt was diagnosed with tuberculosis at age 68.,tuberculosis,tuberculosis,28,40,OTHER,mp00252,false,blood,Wang 2017; Shen 2021
+10884,B_stress,negation_scope,negation_scope.0,No family history of congestive heart failure; Mr. Haddad has bipolar disorder.,bipolar disorder,bipolar disorder,62,78,PATIENT,,false,none,ConText (Harkema 2009)
+3281,B_stress,informant,informant.0,His uncle reports that Mr. Kim has epilepsy.,epilepsy,epilepsy,35,43,PATIENT,mp00831,false,blood,ConText (Harkema 2009)
+9506,A_typical,fh_trigger_phrase,fh_trigger_phrase.0,Family history of scoliosis in her mother.,scoliosis,scoliosis,18,27,OTHER,,false,blood,ConText (Harkema 2009)
+4016,B_stress,non_blood_relative,non_blood_relative.1,"Mrs. Lopez lives with her partner, who has anxiety.",anxiety,anxiety,43,50,OTHER,,false,spouse,Silva 2020; Shen 2021
+700,B_stress,pronoun_coreference,pronoun_coreference.0,Mrs. Lopez came in today with her uncle. He has psoriasis.,psoriasis,psoriasis,48,57,OTHER,mp00500,false,blood,Silva 2020
+3732,B_stress,age_and_death,age_and_death.0,His daughter was diagnosed with breast cancer at age 63.,breast cancer,breast cancer,32,45,OTHER,mp00285,false,blood,Wang 2017; Shen 2021
+9590,B_stress,section_fragment,section_fragment.1,"FAMILY HISTORY: cousin: osteoporosis, schizophrenia.",osteoporosis,osteoporosis,24,36,OTHER,,false,blood,Wang 2017
+1931,B_stress,pronoun_coreference,pronoun_coreference.0,Ms. Nguyen came in today with her half-brother. He has asthma.,asthma,asthma,55,61,OTHER,mp00373,false,blood,Silva 2020
+7842,B_stress,age_and_death,age_and_death.1,Ms. Nguyen was diagnosed with melanoma at age 46.,melanoma,melanoma,30,38,PATIENT,mp00061,false,none,Wang 2017; Shen 2021
+11293,B_stress,long_distance,long_distance.1,"Mr. Patel, who was brought in today by his son, has lupus.",lupus,lupus,52,57,PATIENT,,false,blood,Silva 2020
+9141,A_typical,fh_trigger_phrase,fh_trigger_phrase.2,The pt's past medical history is significant for Parkinson's disease.,Parkinson's disease,Parkinson's disease,49,68,PATIENT,,false,none,ConText (Harkema 2009)
+11301,B_stress,pronoun_coreference,pronoun_coreference.0,Mr. Patel came in today with his maternal aunt. She has anxiety.,anxiety,anxiety,56,63,OTHER,mp00594,false,blood,Silva 2020
+5609,B_stress,age_and_death,age_and_death.3,Mr. Kim was diagnosed with tuberculosis at age 64; his grandmother died at 73 of hepatitis C.,tuberculosis,tuberculosis,27,39,PATIENT,,false,blood,Wang 2017; Shen 2021
+10328,A_typical,fh_trigger_phrase,fh_trigger_phrase.3,Mr. Haddad reports a past history of osteoporosis.,osteoporosis,osteoporosis,37,49,PATIENT,,false,none,ConText (Harkema 2009)
+5829,A_typical,fh_trigger_phrase,fh_trigger_phrase.2,Mr. Kim's past medical history is significant for sleep apnea.,sleep apnea,sleep apnea,50,61,PATIENT,,false,none,ConText (Harkema 2009)
+1272,B_stress,long_distance,long_distance.0,"Her mother, who was seen at several clinics over the past year, has breast cancer.",breast cancer,breast cancer,68,81,OTHER,,false,blood,Silva 2020
+10795,B_stress,multi_relative_negation,multi_relative_negation.3,"Her grandfather has hypertension, but the patient has no history of bipolar disorder.",bipolar disorder,bipolar disorder,68,84,PATIENT,,true,blood,Silva 2020
+9445,B_stress,age_and_death,age_and_death.1,Ms. Garcia was diagnosed with tuberculosis at age 48.,tuberculosis,tuberculosis,30,42,PATIENT,mp00281,false,none,Wang 2017; Shen 2021
+10689,B_stress,informant,informant.1,The patient reports that his cousin has melanoma.,melanoma,melanoma,40,48,OTHER,mp00727,false,blood,ConText (Harkema 2009)
+6378,B_stress,pronoun_coreference,pronoun_coreference.0,Mr. Patel came in today with his mother. She has Crohn's disease.,Crohn's disease,Crohn's disease,49,64,OTHER,mp00581,false,blood,Silva 2020
+4246,B_stress,patient_subject_family_history,patient_subject_family_history.0,Mr. Haddad has a history of kidney stones.,kidney stones,kidney stones,28,41,PATIENT,mp01054,false,none,ConText (Harkema 2009)
+1961,B_stress,multi_relative_negation,multi_relative_negation.1,"Mr. Kim has hypertension, but his uncle has no history of glaucoma.",glaucoma,glaucoma,58,66,OTHER,,true,blood,Silva 2020
+7083,B_stress,negation_scope,negation_scope.0,No family history of Parkinson's disease; Ms. Chen has COPD.,COPD,COPD,55,59,PATIENT,,false,none,ConText (Harkema 2009)
+1907,B_stress,informant,informant.0,His mother reports that the pt has asthma.,asthma,asthma,35,41,PATIENT,mp00832,false,blood,ConText (Harkema 2009)
+6476,B_stress,age_and_death,age_and_death.2,His brother died at age 35 of complications of pancreatitis.,pancreatitis,pancreatitis,47,59,OTHER,,false,blood,Wang 2017; Shen 2021
+8126,B_stress,non_blood_relative,non_blood_relative.3,His wife reports that Mr. Brown has melanoma.,melanoma,melanoma,36,44,PATIENT,,false,spouse,Silva 2020; Shen 2021
+7558,B_stress,section_fragment,section_fragment.1,"FAMILY HISTORY: cousin: asthma, osteoporosis.",asthma,asthma,24,30,OTHER,,false,blood,Wang 2017
+5308,B_stress,contrast,contrast.1,"Ms. Garcia has bipolar disorder, and her paternal grandfather has multiple sclerosis.",multiple sclerosis,multiple sclerosis,66,84,OTHER,mp01489,false,blood,Silva 2020
+512,B_stress,long_distance,long_distance.0,"His son, who was seen at several clinics over the past year, has epilepsy.",epilepsy,epilepsy,65,73,OTHER,,false,blood,Silva 2020
+577,B_stress,section_fragment,section_fragment.3,FAMILY HISTORY: noncontributory. ASSESSMENT: Mr. Novak with epilepsy.,epilepsy,epilepsy,60,68,PATIENT,,false,none,Wang 2017
+2391,A_typical,fh_trigger_phrase,fh_trigger_phrase.2,Ms. Okafor's past medical history is significant for chronic kidney disease.,chronic kidney disease,chronic kidney disease,53,75,PATIENT,,false,none,ConText (Harkema 2009)
+393,B_stress,patient_subject_family_history,patient_subject_family_history.1,Ms. Nguyen has a family history of congestive heart failure.,congestive heart failure,congestive heart failure,35,59,OTHER,mp00997,false,none,ConText (Harkema 2009)
+11287,B_stress,informant,informant.1,Ms. Okafor reports that her cousin has multiple sclerosis.,multiple sclerosis,multiple sclerosis,39,57,OTHER,mp00680,false,blood,ConText (Harkema 2009)
+6405,A_typical,narrative,narrative.1,Mr. Patel was diagnosed with coronary artery disease last year.,coronary artery disease,coronary artery disease,29,52,PATIENT,,false,none,baseline
+2245,B_stress,section_fragment,section_fragment.1,"FAMILY HISTORY: mother: eczema, lupus.",eczema,eczema,24,30,OTHER,,false,blood,Wang 2017
+7331,B_stress,contrast,contrast.0,"Mr. Patel has schizophrenia, and his mother has epilepsy.",schizophrenia,schizophrenia,14,27,PATIENT,mp01260,false,blood,Silva 2020
+7517,B_stress,age_and_death,age_and_death.3,Mr. Kim was diagnosed with lung cancer at age 59; his grandmother died at 79 of pancreatitis.,lung cancer,lung cancer,27,38,PATIENT,,false,blood,Wang 2017; Shen 2021
+3002,B_stress,long_distance,long_distance.1,"The pt, who was brought in today by her brother, has bipolar disorder.",bipolar disorder,bipolar disorder,53,69,PATIENT,,false,blood,Silva 2020
+9184,B_stress,non_blood_relative,non_blood_relative.2,"Ms. Okafor, who lives with her husband, has osteoporosis.",osteoporosis,osteoporosis,44,56,PATIENT,,false,spouse,Silva 2020; Shen 2021
+5905,B_stress,age_and_death,age_and_death.1,The pt was diagnosed with pancreatitis at age 65.,pancreatitis,pancreatitis,26,38,PATIENT,mp00053,false,none,Wang 2017; Shen 2021
+1237,A_typical,narrative,narrative.2,His daughter has hepatitis C.,hepatitis C,hepatitis C,17,28,OTHER,,false,blood,baseline
+2275,B_stress,section_fragment,section_fragment.1,"FAMILY HISTORY: sister: lung CA, atrial fibrillation.",lung cancer,lung CA,24,31,OTHER,,false,blood,Wang 2017
+2726,A_typical,fh_trigger_phrase,fh_trigger_phrase.1,Family history is significant for a seizure disorder in his half-brother.,a seizure disorder,a seizure disorder,34,52,OTHER,,false,blood,ConText (Harkema 2009)
+7729,B_stress,long_distance,long_distance.1,"Mr. Novak, who was brought in today by his cousin, has bipolar disorder.",bipolar disorder,bipolar disorder,55,71,PATIENT,,false,blood,Silva 2020
+3908,B_stress,negation_scope,negation_scope.2,"Mr. Brown denies tuberculosis, but his grandfather has coronary artery disease.",coronary artery disease,coronary artery disease,55,78,OTHER,,false,blood,ConText (Harkema 2009)
+10665,A_typical,narrative,narrative.0,Mr. Brown has congestive heart failure.,congestive heart failure,congestive heart failure,14,38,PATIENT,,false,none,baseline
+5124,A_typical,narrative,narrative.0,Mr. Kim has Crohn's disease.,Crohn's disease,Crohn's disease,12,27,PATIENT,,false,none,baseline
+508,B_stress,multi_relative_negation,multi_relative_negation.2,"Mr. Brown has hypertension, but his son has no history of kidney stones.",hypertension,hypertension,14,26,PATIENT,,false,blood,Silva 2020
+8532,A_typical,fh_trigger_phrase,fh_trigger_phrase.3,Ms. Garcia reports a past history of scoliosis.,scoliosis,scoliosis,37,46,PATIENT,,false,none,ConText (Harkema 2009)
+10780,B_stress,informant,informant.0,Her father reports that the pt has atrial fibrillation.,atrial fibrillation,atrial fibrillation,35,54,PATIENT,mp00818,false,blood,ConText (Harkema 2009)
+2508,B_stress,patient_subject_family_history,patient_subject_family_history.1,Ms. Chen has a family history of breast cancer.,breast cancer,breast cancer,33,46,OTHER,mp00989,false,none,ConText (Harkema 2009)
+285,B_stress,non_blood_relative,non_blood_relative.0,Mr. Brown's partner has hepatitis C.,hepatitis C,hepatitis C,24,35,OTHER,,false,spouse,Silva 2020; Shen 2021
+9137,A_typical,fh_trigger_phrase,fh_trigger_phrase.3,Mr. Novak reports a past history of bipolar disorder.,bipolar disorder,bipolar disorder,36,52,PATIENT,,false,none,ConText (Harkema 2009)
+6971,B_stress,patient_subject_family_history,patient_subject_family_history.1,Mr. Kim has a family history of osteoporosis.,osteoporosis,osteoporosis,32,44,OTHER,mp01180,false,none,ConText (Harkema 2009)
+9754,B_stress,non_blood_relative,non_blood_relative.0,Ms. Nguyen's partner has schizophrenia.,schizophrenia,schizophrenia,25,38,OTHER,,false,spouse,Silva 2020; Shen 2021
+7417,B_stress,contrast,contrast.1,"Mr. Kim has pancreatitis, and his maternal aunt has hypothyroidism.",hypothyroidism,hypothyroidism,52,66,OTHER,mp01417,false,blood,Silva 2020
+192,A_typical,fh_trigger_phrase,fh_trigger_phrase.1,Family history is significant for congestive heart failure in her brother.,congestive heart failure,congestive heart failure,34,58,OTHER,,false,blood,ConText (Harkema 2009)
+7758,B_stress,multi_relative_negation,multi_relative_negation.2,"The pt has diabetes, but his paternal grandfather has no history of colon cancer.",diabetes,diabetes,11,19,PATIENT,,false,blood,Silva 2020
+10556,A_typical,narrative,narrative.0,Mrs. Lopez has eczema.,eczema,eczema,15,21,PATIENT,,false,none,baseline
+9877,B_stress,multi_relative_negation,multi_relative_negation.1,"Ms. Garcia has anemia, but her paternal grandfather has no history of COPD.",COPD,COPD,70,74,OTHER,,true,blood,Silva 2020
+8269,A_typical,narrative,narrative.3,Her cousin was diagnosed with osteoporosis.,osteoporosis,osteoporosis,30,42,OTHER,,false,blood,baseline
+7000,B_stress,pronoun_coreference,pronoun_coreference.1,Ms. Nguyen came in today with her father. She has eczema.,eczema,eczema,50,56,PATIENT,mp00323,false,blood,Silva 2020
+4178,A_typical,narrative,narrative.1,The pt was diagnosed with arthritis last year.,arthritis,arthritis,26,35,PATIENT,,false,none,baseline
+5535,B_stress,contrast,contrast.0,"Mr. Kim has hypothyroidism, and his maternal aunt has pancreatitis.",hypothyroidism,hypothyroidism,12,26,PATIENT,mp01417,false,blood,Silva 2020
+1385,B_stress,informant,informant.0,His aunt reports that Mr. Haddad has pancreatitis.,pancreatitis,pancreatitis,37,49,PATIENT,mp00601,false,blood,ConText (Harkema 2009)
+9924,A_typical,fh_trigger_phrase,fh_trigger_phrase.3,Mr. Patel reports a past history of anxiety.,anxiety,anxiety,36,43,PATIENT,,false,none,ConText (Harkema 2009)
+2069,B_stress,long_distance,long_distance.1,"Mr. Haddad, who was brought in today by his grandfather, has atrial fibrillation.",atrial fibrillation,atrial fibrillation,61,80,PATIENT,,false,blood,Silva 2020
+10467,B_stress,contrast,contrast.0,"Mr. Novak has bipolar disorder, and his mother has arthritis.",bipolar disorder,bipolar disorder,14,30,PATIENT,mp01404,false,blood,Silva 2020
+2907,B_stress,pronoun_coreference,pronoun_coreference.1,Mr. Brown came in today with his aunt. He has congestive heart failure.,congestive heart failure,congestive heart failure,46,70,PATIENT,mp00459,false,blood,Silva 2020
+3772,B_stress,section_fragment,section_fragment.3,FAMILY HISTORY: noncontributory. ASSESSMENT: Mr. Brown with colon CA.,colon cancer,colon CA,60,68,PATIENT,,false,none,Wang 2017
+2402,B_stress,negation_scope,negation_scope.1,Ms. Chen has kidney stones; family history is negative.,kidney stones,kidney stones,13,26,PATIENT,,false,none,ConText (Harkema 2009)
+10385,B_stress,section_fragment,section_fragment.0,FHx: asthma -- father.,asthma,asthma,5,11,OTHER,,false,blood,Wang 2017
+10526,B_stress,non_blood_relative,non_blood_relative.0,The pt's wife has Huntington's disease.,Huntington's disease,Huntington's disease,18,38,OTHER,,false,spouse,Silva 2020; Shen 2021
+8866,B_stress,contrast,contrast.0,"Mr. Haddad has schizophrenia, and his grandmother has anemia.",schizophrenia,schizophrenia,15,28,PATIENT,mp01469,false,blood,Silva 2020
+7,B_stress,patient_subject_family_history,patient_subject_family_history.0,Mr. Brown has a history of COPD.,COPD,COPD,27,31,PATIENT,mp01198,false,none,ConText (Harkema 2009)
+8810,B_stress,age_and_death,age_and_death.3,Mr. Brown was diagnosed with COPD at age 35; his maternal grandmother died at 41 of congestive heart failure.,COPD,COPD,29,33,PATIENT,,false,blood,Wang 2017; Shen 2021
+11200,B_stress,pronoun_coreference,pronoun_coreference.0,Mr. Brown came in today with his grandmother. She has Parkinson's disease.,Parkinson's disease,Parkinson's disease,54,73,OTHER,mp00471,false,blood,Silva 2020
+1413,B_stress,informant,informant.1,Mr. Brown reports that his brother has melanoma.,melanoma,melanoma,39,47,OTHER,mp00633,false,blood,ConText (Harkema 2009)
+6492,B_stress,pronoun_coreference,pronoun_coreference.1,Mr. Kim came in today with his mother. He has COPD.,COPD,COPD,46,50,PATIENT,mp00495,false,blood,Silva 2020
+11238,B_stress,patient_subject_family_history,patient_subject_family_history.0,The pt has a history of depression.,depression,depression,24,34,PATIENT,mp00982,false,none,ConText (Harkema 2009)
+6575,B_stress,informant,informant.1,Mrs. Lopez reports that her father has celiac disease.,celiac disease,celiac disease,39,53,OTHER,mp00662,false,blood,ConText (Harkema 2009)
+7853,B_stress,patient_subject_family_history,patient_subject_family_history.0,Ms. Chen has a history of tuberculosis.,tuberculosis,tuberculosis,26,38,PATIENT,mp01060,false,none,ConText (Harkema 2009)
+6194,B_stress,multi_relative_negation,multi_relative_negation.0,"Her half-brother had Crohn's disease, but her brother has no history of hypertension.",Crohn's disease,Crohn's disease,21,36,OTHER,,false,blood,Silva 2020
+8140,B_stress,negation_scope,negation_scope.1,Ms. Nguyen has Crohn's disease; family history is negative.,Crohn's disease,Crohn's disease,15,30,PATIENT,,false,none,ConText (Harkema 2009)
+10084,B_stress,long_distance,long_distance.1,"The pt, who was brought in today by his half-brother, has osteoporosis.",osteoporosis,osteoporosis,58,70,PATIENT,,false,blood,Silva 2020
+8451,B_stress,negation_scope,negation_scope.0,No family history of lupus; Ms. Okafor has asthma.,asthma,asthma,43,49,PATIENT,,false,none,ConText (Harkema 2009)
+4691,B_stress,pronoun_coreference,pronoun_coreference.0,Mrs. Lopez came in today with her son. He has tuberculosis.,tuberculosis,tuberculosis,46,58,OTHER,mp00412,false,blood,Silva 2020
+10726,B_stress,age_and_death,age_and_death.1,Mr. Brown was diagnosed with COPD at age 39.,COPD,COPD,29,33,PATIENT,mp00226,false,none,Wang 2017; Shen 2021
+3941,B_stress,multi_relative_negation,multi_relative_negation.1,"Ms. Okafor has celiac disease, but her paternal uncle has no history of epilepsy.",epilepsy,epilepsy,72,80,OTHER,,true,blood,Silva 2020
+1962,B_stress,age_and_death,age_and_death.3,Ms. Chen was diagnosed with melanoma at age 52; her paternal uncle died at 61 of Parkinson's disease.,melanoma,melanoma,28,36,PATIENT,,false,blood,Wang 2017; Shen 2021
+1378,B_stress,age_and_death,age_and_death.0,Her maternal grandmother was diagnosed with COPD at age 44.,COPD,COPD,44,48,OTHER,mp00263,false,blood,Wang 2017; Shen 2021
+4565,B_stress,age_and_death,age_and_death.3,Mrs. Lopez was diagnosed with COPD at age 38; her father died at 61 of pancreatitis.,COPD,COPD,30,34,PATIENT,,false,blood,Wang 2017; Shen 2021
+11081,A_typical,narrative,narrative.0,Mr. Kim has hypertension.,hypertension,hypertension,12,24,PATIENT,,false,none,baseline
+6685,B_stress,long_distance,long_distance.0,"His maternal grandmother, who was seen at several clinics over the past year, has depression.",depression,depression,82,92,OTHER,,false,blood,Silva 2020
+263,B_stress,non_blood_relative,non_blood_relative.2,"Ms. Chen, who lives with her husband, has multiple sclerosis.",multiple sclerosis,multiple sclerosis,42,60,PATIENT,,false,spouse,Silva 2020; Shen 2021
+9381,B_stress,age_and_death,age_and_death.1,Ms. Chen was diagnosed with multiple sclerosis at age 42.,multiple sclerosis,multiple sclerosis,28,46,PATIENT,mp00258,false,none,Wang 2017; Shen 2021
+5897,B_stress,negation_scope,negation_scope.2,"Mr. Novak denies anemia, but his son has tuberculosis.",tuberculosis,tuberculosis,41,53,OTHER,,false,blood,ConText (Harkema 2009)
+3608,A_typical,fh_trigger_phrase,fh_trigger_phrase.3,Mr. Novak reports a past history of diabetes.,diabetes,diabetes,36,44,PATIENT,,false,none,ConText (Harkema 2009)
+7219,B_stress,informant,informant.0,His father reports that Mr. Kim has glaucoma.,glaucoma,glaucoma,36,44,PATIENT,mp00737,false,blood,ConText (Harkema 2009)
+7781,A_typical,fh_trigger_phrase,fh_trigger_phrase.2,Mr. Kim's past medical history is significant for lupus.,lupus,lupus,50,55,PATIENT,,false,none,ConText (Harkema 2009)
+1648,B_stress,patient_subject_family_history,patient_subject_family_history.1,Mr. Haddad has a family history of kidney stones.,kidney stones,kidney stones,35,48,OTHER,mp01054,false,none,ConText (Harkema 2009)
+10256,B_stress,long_distance,long_distance.0,"His son, who was seen at several clinics over the past year, has COPD.",COPD,COPD,65,69,OTHER,,false,blood,Silva 2020
+3738,B_stress,informant,informant.0,Her brother reports that Mrs. Lopez has sleep apnea.,sleep apnea,sleep apnea,40,51,PATIENT,mp00700,false,blood,ConText (Harkema 2009)
+7154,B_stress,non_blood_relative,non_blood_relative.0,Mr. Patel's wife has pancreatitis.,pancreatitis,pancreatitis,21,33,OTHER,,false,spouse,Silva 2020; Shen 2021
+4585,B_stress,contrast,contrast.0,"Mr. Haddad has Crohn's disease, and his sister has eczema.",Crohn's disease,Crohn's disease,15,30,PATIENT,mp01495,false,blood,Silva 2020
+7001,B_stress,negation_scope,negation_scope.0,No family history of a seizure disorder; Mr. Kim has Crohn's disease.,Crohn's disease,Crohn's disease,53,68,PATIENT,,false,none,ConText (Harkema 2009)
+1863,A_typical,fh_trigger_phrase,fh_trigger_phrase.0,Family history of coronary artery disease in her grandmother.,coronary artery disease,coronary artery disease,18,41,OTHER,,false,blood,ConText (Harkema 2009)
+5271,A_typical,narrative,narrative.1,Ms. Garcia was diagnosed with COPD last year.,COPD,COPD,30,34,PATIENT,,false,none,baseline
+1037,B_stress,negation_scope,negation_scope.3,Mr. Patel denies any family history of lung cancer.,lung cancer,lung cancer,39,50,OTHER,,true,none,ConText (Harkema 2009)
+9208,A_typical,fh_trigger_phrase,fh_trigger_phrase.0,Family history of colon cancer in her cousin.,colon cancer,colon cancer,18,30,OTHER,,false,blood,ConText (Harkema 2009)
+7705,B_stress,negation_scope,negation_scope.1,Ms. Chen has atrial fibrillation; family history is negative.,atrial fibrillation,atrial fibrillation,13,32,PATIENT,,false,none,ConText (Harkema 2009)
+964,B_stress,pronoun_coreference,pronoun_coreference.0,Mr. Novak came in today with his maternal grandmother. She has tuberculosis.,tuberculosis,tuberculosis,63,75,OTHER,mp00434,false,blood,Silva 2020
+705,B_stress,multi_relative_negation,multi_relative_negation.2,"The patient has coronary artery disease, but his sister has no history of hepatitis C.",coronary artery disease,coronary artery disease,16,39,PATIENT,,false,blood,Silva 2020
+9393,B_stress,section_fragment,section_fragment.0,FHx: kidney stones -- maternal aunt.,kidney stones,kidney stones,5,18,OTHER,,false,blood,Wang 2017
+11328,B_stress,age_and_death,age_and_death.0,His paternal grandfather was diagnosed with pancreatitis at age 65.,pancreatitis,pancreatitis,44,56,OTHER,mp00053,false,blood,Wang 2017; Shen 2021
+11363,B_stress,informant,informant.1,The pt reports that her father has atrial fibrillation.,atrial fibrillation,atrial fibrillation,35,54,OTHER,mp00818,false,blood,ConText (Harkema 2009)
+5706,A_typical,fh_trigger_phrase,fh_trigger_phrase.1,Family history is significant for lupus in her grandmother.,lupus,lupus,34,39,OTHER,,false,blood,ConText (Harkema 2009)
+5775,B_stress,contrast,contrast.1,"Ms. Garcia has breast cancer, and her maternal grandmother has Crohn's disease.",Crohn's disease,Crohn's disease,63,78,OTHER,mp01496,false,blood,Silva 2020
+11259,B_stress,patient_subject_family_history,patient_subject_family_history.1,Ms. Chen has a family history of migraines.,migraines,migraines,33,42,OTHER,mp01082,false,none,ConText (Harkema 2009)
+10577,B_stress,section_fragment,section_fragment.3,FAMILY HISTORY: noncontributory. ASSESSMENT: Ms. Garcia with chronic kidney disease.,chronic kidney disease,chronic kidney disease,61,83,PATIENT,,false,none,Wang 2017
+6171,B_stress,long_distance,long_distance.0,"Her grandfather, who was seen at several clinics over the past year, has celiac disease.",celiac disease,celiac disease,73,87,OTHER,,false,blood,Silva 2020
+4979,B_stress,multi_relative_negation,multi_relative_negation.1,"Mr. Brown has melanoma, but his grandmother has no history of scoliosis.",scoliosis,scoliosis,62,71,OTHER,,true,blood,Silva 2020
+3044,B_stress,patient_subject_family_history,patient_subject_family_history.0,Mr. Brown has a history of celiac disease.,celiac disease,celiac disease,27,41,PATIENT,mp01149,false,none,ConText (Harkema 2009)
+33,B_stress,patient_subject_family_history,patient_subject_family_history.1,Mr. Novak has a family history of multiple sclerosis.,multiple sclerosis,multiple sclerosis,34,52,OTHER,mp00979,false,none,ConText (Harkema 2009)
+4970,B_stress,age_and_death,age_and_death.3,Mr. Haddad was diagnosed with tuberculosis at age 60; his aunt died at 83 of melanoma.,tuberculosis,tuberculosis,30,42,PATIENT,,false,blood,Wang 2017; Shen 2021
+8227,B_stress,informant,informant.1,The pt reports that her cousin has breast cancer.,breast cancer,breast cancer,35,48,OTHER,mp00623,false,blood,ConText (Harkema 2009)
+6234,B_stress,long_distance,long_distance.0,"His paternal grandfather, who was seen at several clinics over the past year, has hepatitis C.",hepatitis C,hepatitis C,82,93,OTHER,,false,blood,Silva 2020
+9358,B_stress,informant,informant.1,The pt reports that his cousin has multiple sclerosis.,multiple sclerosis,multiple sclerosis,35,53,OTHER,mp00880,false,blood,ConText (Harkema 2009)
+5040,A_typical,narrative,narrative.2,Her grandmother has gout.,gout,gout,20,24,OTHER,,false,blood,baseline
+7126,B_stress,patient_subject_family_history,patient_subject_family_history.0,Mr. Haddad has a history of celiac disease.,celiac disease,celiac disease,28,42,PATIENT,mp01084,false,none,ConText (Harkema 2009)
+5812,B_stress,patient_subject_family_history,patient_subject_family_history.0,Mr. Patel has a history of chronic kidney disease.,chronic kidney disease,chronic kidney disease,27,49,PATIENT,mp01036,false,none,ConText (Harkema 2009)
+922,B_stress,contrast,contrast.1,"Ms. Chen has colon cancer, and her cousin has Huntington's disease.",Huntington's disease,Huntington's disease,46,66,OTHER,mp01484,false,blood,Silva 2020
+1203,B_stress,long_distance,long_distance.0,"His son, who was seen at several clinics over the past year, has breast cancer.",breast cancer,breast cancer,65,78,OTHER,,false,blood,Silva 2020
+10600,B_stress,negation_scope,negation_scope.2,"Mr. Novak denies a seizure disorder, but his mother has scoliosis.",scoliosis,scoliosis,56,65,OTHER,,false,blood,ConText (Harkema 2009)
+10758,A_typical,fh_trigger_phrase,fh_trigger_phrase.1,Family history is significant for coronary artery disease in her uncle.,coronary artery disease,coronary artery disease,34,57,OTHER,,false,blood,ConText (Harkema 2009)
+3580,B_stress,non_blood_relative,non_blood_relative.1,"Ms. Nguyen lives with her partner, who has congestive heart failure.",congestive heart failure,congestive heart failure,43,67,OTHER,,false,spouse,Silva 2020; Shen 2021
+10308,B_stress,non_blood_relative,non_blood_relative.2,"Ms. Garcia, who lives with her partner, has Parkinson's disease.",Parkinson's disease,Parkinson's disease,44,63,PATIENT,,false,spouse,Silva 2020; Shen 2021
+3721,B_stress,long_distance,long_distance.0,"His maternal aunt, who was seen at several clinics over the past year, has Crohn's disease.",Crohn's disease,Crohn's disease,75,90,OTHER,,false,blood,Silva 2020
+1695,B_stress,age_and_death,age_and_death.0,Her maternal aunt was diagnosed with multiple sclerosis at age 42.,multiple sclerosis,multiple sclerosis,37,55,OTHER,mp00258,false,blood,Wang 2017; Shen 2021
+11161,B_stress,long_distance,long_distance.1,"Mrs. Lopez, who was brought in today by her half-brother, has Huntington's disease.",Huntington's disease,Huntington's disease,62,82,PATIENT,,false,blood,Silva 2020
+4351,B_stress,non_blood_relative,non_blood_relative.0,Mrs. Lopez's husband has anemia.,anemia,anemia,25,31,OTHER,,false,spouse,Silva 2020; Shen 2021
+5066,A_typical,fh_trigger_phrase,fh_trigger_phrase.0,Family history of anxiety in his sister.,anxiety,anxiety,18,25,OTHER,,false,blood,ConText (Harkema 2009)
+9826,A_typical,fh_trigger_phrase,fh_trigger_phrase.1,Family history is significant for psoriasis in his brother.,psoriasis,psoriasis,34,43,OTHER,,false,blood,ConText (Harkema 2009)
+1560,B_stress,pronoun_coreference,pronoun_coreference.1,Ms. Nguyen came in today with her paternal uncle. She has hepatitis C.,hepatitis C,hepatitis C,58,69,PATIENT,mp00561,false,blood,Silva 2020
+4819,B_stress,multi_relative_negation,multi_relative_negation.1,"Ms. Okafor has migraines, but her grandfather has no history of bipolar disorder.",bipolar disorder,bipolar disorder,64,80,OTHER,,true,blood,Silva 2020
+9872,B_stress,age_and_death,age_and_death.1,The patient was diagnosed with pancreatitis at age 35.,pancreatitis,pancreatitis,31,43,PATIENT,mp00216,false,none,Wang 2017; Shen 2021
+8050,B_stress,non_blood_relative,non_blood_relative.3,His partner reports that Mr. Novak has anemia.,anemia,anemia,39,45,PATIENT,,false,spouse,Silva 2020; Shen 2021
+11397,B_stress,negation_scope,negation_scope.2,"The pt denies psoriasis, but her grandfather has bipolar disorder.",bipolar disorder,bipolar disorder,49,65,OTHER,,false,blood,ConText (Harkema 2009)
+10970,A_typical,narrative,narrative.0,Mr. Patel has lung cancer.,lung cancer,lung cancer,14,25,PATIENT,,false,none,baseline
+2119,A_typical,fh_trigger_phrase,fh_trigger_phrase.2,The patient's past medical history is significant for congestive heart failure.,congestive heart failure,congestive heart failure,54,78,PATIENT,,false,none,ConText (Harkema 2009)
+3800,B_stress,contrast,contrast.0,"Ms. Chen has diabetes, and her cousin has gout.",diabetes,diabetes,13,21,PATIENT,mp01416,false,blood,Silva 2020
+143,B_stress,contrast,contrast.1,"Ms. Garcia has bipolar disorder, and her half-brother has asthma.",asthma,asthma,58,64,OTHER,mp01387,false,blood,Silva 2020
+2497,B_stress,section_fragment,section_fragment.1,"FAMILY HISTORY: paternal uncle: HTN, kidney stones.",hypertension,HTN,32,35,OTHER,,false,blood,Wang 2017
+6226,B_stress,informant,informant.0,His maternal grandmother reports that the patient has atrial fibrillation.,atrial fibrillation,atrial fibrillation,54,73,PATIENT,mp00898,false,blood,ConText (Harkema 2009)
+9900,B_stress,age_and_death,age_and_death.2,His aunt died at age 35 of complications of lung cancer.,lung cancer,lung cancer,44,55,OTHER,,false,blood,Wang 2017; Shen 2021
+5047,B_stress,contrast,contrast.0,"Ms. Garcia has asthma, and her half-brother has bipolar disorder.",asthma,asthma,15,21,PATIENT,mp01387,false,blood,Silva 2020
+4029,A_typical,fh_trigger_phrase,fh_trigger_phrase.3,Ms. Okafor reports a past history of celiac disease.,celiac disease,celiac disease,37,51,PATIENT,,false,none,ConText (Harkema 2009)
+2073,B_stress,non_blood_relative,non_blood_relative.3,His wife reports that Mr. Kim has migraines.,migraines,migraines,34,43,PATIENT,,false,spouse,Silva 2020; Shen 2021
+10124,B_stress,section_fragment,section_fragment.1,"FAMILY HISTORY: daughter: high cholesterol, MS.",high cholesterol,high cholesterol,26,42,OTHER,,false,blood,Wang 2017
+6317,B_stress,patient_subject_family_history,patient_subject_family_history.1,Ms. Chen has a family history of tuberculosis.,tuberculosis,tuberculosis,33,45,OTHER,mp01060,false,none,ConText (Harkema 2009)
+742,B_stress,negation_scope,negation_scope.3,Mr. Kim denies any family history of anemia.,anemia,anemia,37,43,OTHER,,true,none,ConText (Harkema 2009)
+9797,B_stress,pronoun_coreference,pronoun_coreference.0,Mrs. Lopez came in today with her paternal uncle. He has psoriasis.,psoriasis,psoriasis,57,66,OTHER,mp00354,false,blood,Silva 2020
+1653,B_stress,section_fragment,section_fragment.0,FHx: anemia -- father.,anemia,anemia,5,11,OTHER,,false,blood,Wang 2017
+7183,B_stress,non_blood_relative,non_blood_relative.2,"The patient, who lives with her partner, has chronic kidney disease.",chronic kidney disease,chronic kidney disease,45,67,PATIENT,,false,spouse,Silva 2020; Shen 2021
+10634,B_stress,informant,informant.1,Mr. Novak reports that his maternal aunt has congestive heart failure.,congestive heart failure,congestive heart failure,45,69,OTHER,mp00643,false,blood,ConText (Harkema 2009)
+8703,B_stress,long_distance,long_distance.0,"His grandmother, who was seen at several clinics over the past year, has chronic kidney disease.",chronic kidney disease,chronic kidney disease,73,95,OTHER,,false,blood,Silva 2020
+3210,A_typical,narrative,narrative.0,The patient has lung cancer.,lung cancer,lung cancer,16,27,PATIENT,,false,none,baseline
+1897,B_stress,negation_scope,negation_scope.1,Ms. Garcia has arthritis; family history is negative.,arthritis,arthritis,15,24,PATIENT,,false,none,ConText (Harkema 2009)
+168,B_stress,section_fragment,section_fragment.2,PMH: arthritis. FHx: asthma -- half-brother.,arthritis,arthritis,5,14,PATIENT,,false,blood,Wang 2017
+4642,B_stress,contrast,contrast.1,"The patient has congestive heart failure, and his brother has hypertension.",hypertension,hypertension,62,74,OTHER,mp01452,false,blood,Silva 2020
+2627,B_stress,informant,informant.0,Her father reports that Mrs. Lopez has celiac disease.,celiac disease,celiac disease,39,53,PATIENT,mp00662,false,blood,ConText (Harkema 2009)
+578,B_stress,negation_scope,negation_scope.3,Mr. Haddad denies any family history of COPD.,COPD,COPD,40,44,OTHER,,true,none,ConText (Harkema 2009)
+3530,B_stress,multi_relative_negation,multi_relative_negation.3,"His mother has kidney stones, but the pt has no history of atrial fibrillation.",atrial fibrillation,atrial fibrillation,59,78,PATIENT,,true,blood,Silva 2020
+10853,A_typical,fh_trigger_phrase,fh_trigger_phrase.3,The pt reports a past history of tuberculosis.,tuberculosis,tuberculosis,33,45,PATIENT,,false,none,ConText (Harkema 2009)
+7025,B_stress,non_blood_relative,non_blood_relative.2,"Mr. Kim, who lives with his wife, has osteoporosis.",osteoporosis,osteoporosis,38,50,PATIENT,,false,spouse,Silva 2020; Shen 2021
+4906,B_stress,pronoun_coreference,pronoun_coreference.1,Mr. Novak came in today with his maternal grandmother. He has schizophrenia.,schizophrenia,schizophrenia,62,75,PATIENT,mp00599,false,blood,Silva 2020
+915,A_typical,fh_trigger_phrase,fh_trigger_phrase.2,The pt's past medical history is significant for chronic kidney disease.,chronic kidney disease,chronic kidney disease,49,71,PATIENT,,false,none,ConText (Harkema 2009)
+4148,B_stress,long_distance,long_distance.1,"The pt, who was brought in today by her grandfather, has sleep apnea.",sleep apnea,sleep apnea,57,68,PATIENT,,false,blood,Silva 2020
+9916,B_stress,long_distance,long_distance.1,"The patient, who was brought in today by his daughter, has migraines.",migraines,migraines,59,68,PATIENT,,false,blood,Silva 2020
+8066,B_stress,section_fragment,section_fragment.2,PMH: pancreatitis. FHx: AFib -- maternal grandmother.,pancreatitis,pancreatitis,5,17,PATIENT,,false,blood,Wang 2017
+10799,B_stress,pronoun_coreference,pronoun_coreference.1,Mr. Haddad came in today with his maternal grandmother. He has COPD.,COPD,COPD,63,67,PATIENT,mp00502,false,blood,Silva 2020
+785,B_stress,multi_relative_negation,multi_relative_negation.3,"His aunt has hepatitis C, but Mr. Kim has no history of sleep apnea.",sleep apnea,sleep apnea,56,67,PATIENT,,true,blood,Silva 2020
+10960,B_stress,contrast,contrast.1,"Mr. Novak has arthritis, and his mother has bipolar disorder.",bipolar disorder,bipolar disorder,44,60,OTHER,mp01404,false,blood,Silva 2020
+259,A_typical,narrative,narrative.2,His paternal uncle has scoliosis.,scoliosis,scoliosis,23,32,OTHER,,false,blood,baseline
+3893,B_stress,informant,informant.0,His cousin reports that Mr. Brown has lupus.,lupus,lupus,38,43,PATIENT,mp00675,false,blood,ConText (Harkema 2009)
+7553,B_stress,non_blood_relative,non_blood_relative.3,Her husband reports that Ms. Okafor has depression.,depression,depression,40,50,PATIENT,,false,spouse,Silva 2020; Shen 2021
+4084,B_stress,section_fragment,section_fragment.2,PMH: psoriasis. FHx: lung CA -- maternal aunt.,psoriasis,psoriasis,5,14,PATIENT,,false,blood,Wang 2017
+6749,B_stress,section_fragment,section_fragment.1,"FAMILY HISTORY: grandfather: Parkinson's disease, migraines.",Parkinson's disease,Parkinson's disease,29,48,OTHER,,false,blood,Wang 2017
+8890,B_stress,age_and_death,age_and_death.2,His grandfather died at age 38 of complications of lung cancer.,lung cancer,lung cancer,51,62,OTHER,,false,blood,Wang 2017; Shen 2021
+2273,B_stress,age_and_death,age_and_death.3,Ms. Chen was diagnosed with colon cancer at age 66; her father died at 75 of coronary artery disease.,colon cancer,colon cancer,28,40,PATIENT,,false,blood,Wang 2017; Shen 2021
+6566,B_stress,age_and_death,age_and_death.1,Mr. Haddad was diagnosed with melanoma at age 51.,melanoma,melanoma,30,38,PATIENT,mp00164,false,none,Wang 2017; Shen 2021
+6630,B_stress,patient_subject_family_history,patient_subject_family_history.1,Mr. Haddad has a family history of sleep apnea.,sleep apnea,sleep apnea,35,46,OTHER,mp00920,false,none,ConText (Harkema 2009)
+5378,B_stress,age_and_death,age_and_death.1,Mr. Patel was diagnosed with tuberculosis at age 68.,tuberculosis,tuberculosis,29,41,PATIENT,mp00252,false,none,Wang 2017; Shen 2021
+6662,B_stress,non_blood_relative,non_blood_relative.2,"Mr. Haddad, who lives with his wife, has anxiety.",anxiety,anxiety,41,48,PATIENT,,false,spouse,Silva 2020; Shen 2021
+389,B_stress,contrast,contrast.1,"Mr. Patel has epilepsy, and his mother has schizophrenia.",schizophrenia,schizophrenia,43,56,OTHER,mp01260,false,blood,Silva 2020
+3158,B_stress,negation_scope,negation_scope.2,"Ms. Nguyen denies melanoma, but her cousin has high cholesterol.",high cholesterol,high cholesterol,47,63,OTHER,,false,blood,ConText (Harkema 2009)
+10838,B_stress,contrast,contrast.0,"Ms. Chen has kidney stones, and her paternal grandfather has congestive heart failure.",kidney stones,kidney stones,13,26,PATIENT,mp01460,false,blood,Silva 2020
+9443,B_stress,long_distance,long_distance.1,"Mr. Kim, who was brought in today by his aunt, has eczema.",eczema,eczema,51,57,PATIENT,,false,blood,Silva 2020
+83,B_stress,patient_subject_family_history,patient_subject_family_history.1,The pt has a family history of anxiety.,anxiety,anxiety,31,38,OTHER,mp01181,false,none,ConText (Harkema 2009)
+5433,B_stress,age_and_death,age_and_death.2,His sister died at age 55 of complications of coronary artery disease.,coronary artery disease,coronary artery disease,46,69,OTHER,,false,blood,Wang 2017; Shen 2021
+3419,B_stress,multi_relative_negation,multi_relative_negation.1,"Mr. Patel has pancreatitis, but his grandfather has no history of breast cancer.",breast cancer,breast cancer,66,79,OTHER,,true,blood,Silva 2020
+4023,B_stress,patient_subject_family_history,patient_subject_family_history.1,Mr. Brown has a family history of COPD.,COPD,COPD,34,38,OTHER,mp01198,false,none,ConText (Harkema 2009)
+8228,B_stress,negation_scope,negation_scope.3,The patient denies any family history of Parkinson's disease.,Parkinson's disease,Parkinson's disease,41,60,OTHER,,true,none,ConText (Harkema 2009)
+10708,A_typical,fh_trigger_phrase,fh_trigger_phrase.3,Ms. Chen reports a past history of Parkinson's disease.,Parkinson's disease,Parkinson's disease,35,54,PATIENT,,false,none,ConText (Harkema 2009)
+6929,B_stress,negation_scope,negation_scope.3,Mr. Kim denies any family history of colon cancer.,colon cancer,colon cancer,37,49,OTHER,,true,none,ConText (Harkema 2009)
+8152,B_stress,non_blood_relative,non_blood_relative.3,Her husband reports that Ms. Nguyen has migraines.,migraines,migraines,40,49,PATIENT,,false,spouse,Silva 2020; Shen 2021
+3205,B_stress,multi_relative_negation,multi_relative_negation.0,"Her cousin had a seizure disorder, but her brother has no history of hypertension.",a seizure disorder,a seizure disorder,15,33,OTHER,,false,blood,Silva 2020
+10345,B_stress,negation_scope,negation_scope.3,Ms. Garcia denies any family history of asthma.,asthma,asthma,40,46,OTHER,,true,none,ConText (Harkema 2009)
+5474,A_typical,narrative,narrative.1,Mr. Haddad was diagnosed with sleep apnea last year.,sleep apnea,sleep apnea,30,41,PATIENT,,false,none,baseline
+1199,A_typical,narrative,narrative.2,Her sister has gout.,gout,gout,15,19,OTHER,,false,blood,baseline
+6011,B_stress,long_distance,long_distance.1,"Mr. Novak, who was brought in today by his maternal grandmother, has pancreatitis.",pancreatitis,pancreatitis,69,81,PATIENT,,false,blood,Silva 2020
+5697,B_stress,negation_scope,negation_scope.2,"Mr. Patel denies gout, but his sister has breast cancer.",breast cancer,breast cancer,42,55,OTHER,,false,blood,ConText (Harkema 2009)
+8002,B_stress,patient_subject_family_history,patient_subject_family_history.1,Mr. Novak has a family history of atrial fibrillation.,atrial fibrillation,atrial fibrillation,34,53,OTHER,mp00952,false,none,ConText (Harkema 2009)
+3159,B_stress,section_fragment,section_fragment.0,FHx: a seizure disorder -- uncle.,a seizure disorder,a seizure disorder,5,23,OTHER,,false,blood,Wang 2017
+10668,B_stress,non_blood_relative,non_blood_relative.1,"The pt lives with his wife, who has atrial fibrillation.",atrial fibrillation,atrial fibrillation,36,55,OTHER,,false,spouse,Silva 2020; Shen 2021
+4622,B_stress,pronoun_coreference,pronoun_coreference.0,Mr. Patel came in today with his maternal aunt. She has multiple sclerosis.,multiple sclerosis,multiple sclerosis,56,74,OTHER,mp00384,false,blood,Silva 2020
+9896,B_stress,contrast,contrast.1,"Ms. Chen has hypertension, and her maternal grandmother has multiple sclerosis.",multiple sclerosis,multiple sclerosis,60,78,OTHER,mp01463,false,blood,Silva 2020
+1270,B_stress,contrast,contrast.1,"The patient has depression, and her daughter has hypertension.",hypertension,hypertension,49,61,OTHER,mp01333,false,blood,Silva 2020
+5834,B_stress,long_distance,long_distance.0,"Her brother, who was seen at several clinics over the past year, has hepatitis C.",hepatitis C,hepatitis C,69,80,OTHER,,false,blood,Silva 2020
+9528,B_stress,contrast,contrast.1,"Ms. Nguyen has tuberculosis, and her brother has anemia.",anemia,anemia,49,55,OTHER,mp01247,false,blood,Silva 2020
+5368,B_stress,informant,informant.0,His cousin reports that the pt has multiple sclerosis.,multiple sclerosis,multiple sclerosis,35,53,PATIENT,mp00880,false,blood,ConText (Harkema 2009)
+11245,B_stress,negation_scope,negation_scope.1,Ms. Garcia has multiple sclerosis; family history is negative.,multiple sclerosis,multiple sclerosis,15,33,PATIENT,,false,none,ConText (Harkema 2009)
+478,B_stress,negation_scope,negation_scope.3,The pt denies any family history of osteoporosis.,osteoporosis,osteoporosis,36,48,OTHER,,true,none,ConText (Harkema 2009)
+10038,A_typical,fh_trigger_phrase,fh_trigger_phrase.1,Family history is significant for breast cancer in her father.,breast cancer,breast cancer,34,47,OTHER,,false,blood,ConText (Harkema 2009)
+6357,B_stress,contrast,contrast.0,"Ms. Chen has Huntington's disease, and her cousin has colon cancer.",Huntington's disease,Huntington's disease,13,33,PATIENT,mp01484,false,blood,Silva 2020
+11076,B_stress,contrast,contrast.0,"Ms. Garcia has multiple sclerosis, and her paternal grandfather has bipolar disorder.",multiple sclerosis,multiple sclerosis,15,33,PATIENT,mp01489,false,blood,Silva 2020
+10296,B_stress,informant,informant.1,Mr. Patel reports that his aunt has coronary artery disease.,coronary artery disease,coronary artery disease,36,59,OTHER,mp00846,false,blood,ConText (Harkema 2009)
+8994,A_typical,fh_trigger_phrase,fh_trigger_phrase.0,Family history of depression in his grandmother.,depression,depression,18,28,OTHER,,false,blood,ConText (Harkema 2009)
+5117,B_stress,age_and_death,age_and_death.0,His half-brother was diagnosed with diabetes at age 36.,diabetes,diabetes,36,44,OTHER,mp00294,false,blood,Wang 2017; Shen 2021
+256,A_typical,narrative,narrative.3,His paternal uncle was diagnosed with gout.,gout,gout,38,42,OTHER,,false,blood,baseline
+232,B_stress,age_and_death,age_and_death.3,Mr. Brown was diagnosed with Parkinson's disease at age 39; his brother died at 58 of COPD.,Parkinson's disease,Parkinson's disease,29,48,PATIENT,,false,blood,Wang 2017; Shen 2021
+9859,B_stress,multi_relative_negation,multi_relative_negation.0,"Her daughter had anxiety, but her maternal aunt has no history of migraines.",anxiety,anxiety,17,24,OTHER,,false,blood,Silva 2020
+2683,B_stress,patient_subject_family_history,patient_subject_family_history.1,Mrs. Lopez has a family history of anemia.,anemia,anemia,35,41,OTHER,mp01110,false,none,ConText (Harkema 2009)
+6832,B_stress,contrast,contrast.0,"Ms. Okafor has Parkinson's disease, and her son has hypertension.",Parkinson's disease,Parkinson's disease,15,34,PATIENT,mp01405,false,blood,Silva 2020
+796,B_stress,contrast,contrast.1,"Ms. Chen has eczema, and her brother has gout.",gout,gout,41,45,OTHER,mp01456,false,blood,Silva 2020
+482,B_stress,negation_scope,negation_scope.0,No family history of anemia; the patient has atrial fibrillation.,atrial fibrillation,atrial fibrillation,45,64,PATIENT,,false,none,ConText (Harkema 2009)
+637,B_stress,contrast,contrast.1,"Ms. Chen has congestive heart failure, and her paternal grandfather has kidney stones.",kidney stones,kidney stones,72,85,OTHER,mp01460,false,blood,Silva 2020
+3055,B_stress,pronoun_coreference,pronoun_coreference.1,Mr. Haddad came in today with his aunt. He has high cholesterol.,high cholesterol,high cholesterol,47,63,PATIENT,mp00322,false,blood,Silva 2020
+9164,B_stress,multi_relative_negation,multi_relative_negation.1,"Ms. Chen has glaucoma, but her half-brother has no history of Crohn's disease.",Crohn's disease,Crohn's disease,62,77,OTHER,,true,blood,Silva 2020
+7565,B_stress,patient_subject_family_history,patient_subject_family_history.1,Ms. Okafor has a family history of sleep apnea.,sleep apnea,sleep apnea,35,46,OTHER,mp00903,false,none,ConText (Harkema 2009)
+6330,B_stress,contrast,contrast.0,"Ms. Garcia has atrial fibrillation, and her maternal aunt has scoliosis.",atrial fibrillation,atrial fibrillation,15,34,PATIENT,mp01418,false,blood,Silva 2020
+5516,B_stress,contrast,contrast.0,"The patient has schizophrenia, and his sister has osteoporosis.",schizophrenia,schizophrenia,16,29,PATIENT,mp01466,false,blood,Silva 2020
+5479,B_stress,multi_relative_negation,multi_relative_negation.1,"Mr. Novak has glaucoma, but his cousin has no history of migraines.",migraines,migraines,57,66,OTHER,,true,blood,Silva 2020
+9489,B_stress,non_blood_relative,non_blood_relative.0,The patient's partner has asthma.,asthma,asthma,26,32,OTHER,,false,spouse,Silva 2020; Shen 2021
+5101,B_stress,non_blood_relative,non_blood_relative.0,Mr. Haddad's wife has migraines.,migraines,migraines,22,31,OTHER,,false,spouse,Silva 2020; Shen 2021
+1869,B_stress,pronoun_coreference,pronoun_coreference.1,Mr. Patel came in today with his daughter. He has celiac disease.,celiac disease,celiac disease,50,64,PATIENT,mp00398,false,blood,Silva 2020
+145,B_stress,long_distance,long_distance.1,"Mr. Patel, who was brought in today by his son, has Huntington's disease.",Huntington's disease,Huntington's disease,52,72,PATIENT,,false,blood,Silva 2020
+5338,A_typical,narrative,narrative.3,His father was diagnosed with migraines.,migraines,migraines,30,39,OTHER,,false,blood,baseline
+6512,B_stress,informant,informant.0,His father reports that Mr. Patel has melanoma.,melanoma,melanoma,38,46,PATIENT,mp00702,false,blood,ConText (Harkema 2009)
+1913,B_stress,non_blood_relative,non_blood_relative.0,Mr. Brown's wife has melanoma.,melanoma,melanoma,21,29,OTHER,,false,spouse,Silva 2020; Shen 2021
+2039,A_typical,narrative,narrative.2,Her father has colon cancer.,colon cancer,colon cancer,15,27,OTHER,,false,blood,baseline
+8281,B_stress,patient_subject_family_history,patient_subject_family_history.0,Mrs. Lopez has a history of colon cancer.,colon cancer,colon cancer,28,40,PATIENT,mp00971,false,none,ConText (Harkema 2009)
+8348,B_stress,contrast,contrast.0,"The patient has Huntington's disease, and his sister has tuberculosis.",Huntington's disease,Huntington's disease,16,36,PATIENT,mp01500,false,blood,Silva 2020
+8865,B_stress,pronoun_coreference,pronoun_coreference.1,Mrs. Lopez came in today with her uncle. She has psoriasis.,psoriasis,psoriasis,49,58,PATIENT,mp00500,false,blood,Silva 2020
+9701,B_stress,negation_scope,negation_scope.1,Mr. Kim has scoliosis; family history is negative.,scoliosis,scoliosis,12,21,PATIENT,,false,none,ConText (Harkema 2009)
+10418,B_stress,patient_subject_family_history,patient_subject_family_history.0,Mr. Kim has a history of osteoporosis.,osteoporosis,osteoporosis,25,37,PATIENT,mp01180,false,none,ConText (Harkema 2009)
+9606,A_typical,fh_trigger_phrase,fh_trigger_phrase.2,Mr. Haddad's past medical history is significant for hypertension.,hypertension,hypertension,53,65,PATIENT,,false,none,ConText (Harkema 2009)
+10414,B_stress,multi_relative_negation,multi_relative_negation.3,"His father has lung cancer, but Mr. Patel has no history of lupus.",lupus,lupus,60,65,PATIENT,,true,blood,Silva 2020
+4344,B_stress,contrast,contrast.0,"Ms. Nguyen has anemia, and her brother has tuberculosis.",anemia,anemia,15,21,PATIENT,mp01247,false,blood,Silva 2020
+3995,B_stress,section_fragment,section_fragment.2,PMH: sleep apnea. FHx: chronic kidney disease -- cousin.,sleep apnea,sleep apnea,5,16,PATIENT,,false,blood,Wang 2017
+2419,B_stress,patient_subject_family_history,patient_subject_family_history.1,Ms. Garcia has a family history of a seizure disorder.,a seizure disorder,a seizure disorder,35,53,OTHER,mp01143,false,none,ConText (Harkema 2009)
+3344,B_stress,long_distance,long_distance.1,"Mr. Brown, who was brought in today by his brother, has hypertension.",hypertension,hypertension,56,68,PATIENT,,false,blood,Silva 2020
+2749,A_typical,fh_trigger_phrase,fh_trigger_phrase.2,Mr. Patel's past medical history is significant for psoriasis.,psoriasis,psoriasis,52,61,PATIENT,,false,none,ConText (Harkema 2009)
+486,B_stress,pronoun_coreference,pronoun_coreference.1,Mrs. Lopez came in today with her paternal uncle. She has psoriasis.,psoriasis,psoriasis,58,67,PATIENT,mp00354,false,blood,Silva 2020
+2076,B_stress,long_distance,long_distance.0,"His brother, who was seen at several clinics over the past year, has atrial fibrillation.",atrial fibrillation,atrial fibrillation,69,88,OTHER,,false,blood,Silva 2020
+9573,B_stress,pronoun_coreference,pronoun_coreference.1,Ms. Nguyen came in today with her half-brother. She has asthma.,asthma,asthma,56,62,PATIENT,mp00373,false,blood,Silva 2020
+4175,A_typical,fh_trigger_phrase,fh_trigger_phrase.3,The patient reports a past history of lupus.,lupus,lupus,38,43,PATIENT,,false,none,ConText (Harkema 2009)
+4220,A_typical,narrative,narrative.1,Mrs. Lopez was diagnosed with multiple sclerosis last year.,multiple sclerosis,multiple sclerosis,30,48,PATIENT,,false,none,baseline
+8273,B_stress,contrast,contrast.1,"Mr. Patel has hepatitis C, and his half-brother has lupus.",lupus,lupus,52,57,OTHER,mp01213,false,blood,Silva 2020
+2125,A_typical,narrative,narrative.1,Mr. Kim was diagnosed with lupus last year.,lupus,lupus,27,32,PATIENT,,false,none,baseline
+1021,B_stress,informant,informant.1,Ms. Nguyen reports that her paternal grandfather has congestive heart failure.,congestive heart failure,congestive heart failure,53,77,OTHER,mp00783,false,blood,ConText (Harkema 2009)
+2446,B_stress,multi_relative_negation,multi_relative_negation.3,"Her grandfather has anxiety, but Ms. Chen has no history of migraines.",migraines,migraines,60,69,PATIENT,,true,blood,Silva 2020
+5205,B_stress,multi_relative_negation,multi_relative_negation.3,"Her maternal grandmother has diabetes, but Mrs. Lopez has no history of colon cancer.",colon cancer,colon cancer,72,84,PATIENT,,true,blood,Silva 2020
+6986,A_typical,fh_trigger_phrase,fh_trigger_phrase.0,Family history of lung cancer in her aunt.,lung cancer,lung cancer,18,29,OTHER,,false,blood,ConText (Harkema 2009)
+2135,B_stress,negation_scope,negation_scope.3,The pt denies any family history of Huntington's disease.,Huntington's disease,Huntington's disease,36,56,OTHER,,true,none,ConText (Harkema 2009)
+7447,B_stress,section_fragment,section_fragment.0,FHx: MDD -- paternal grandfather.,depression,MDD,5,8,OTHER,,false,blood,Wang 2017
+3178,B_stress,non_blood_relative,non_blood_relative.2,"Ms. Nguyen, who lives with her husband, has celiac disease.",celiac disease,celiac disease,44,58,PATIENT,,false,spouse,Silva 2020; Shen 2021
+5960,B_stress,multi_relative_negation,multi_relative_negation.0,"Her half-brother had a seizure disorder, but her son has no history of COPD.",a seizure disorder,a seizure disorder,21,39,OTHER,,false,blood,Silva 2020
+6975,B_stress,age_and_death,age_and_death.2,His daughter died at age 41 of complications of tuberculosis.,tuberculosis,tuberculosis,48,60,OTHER,,false,blood,Wang 2017; Shen 2021
+1205,B_stress,contrast,contrast.0,"Mrs. Lopez has bipolar disorder, and her father has migraines.",bipolar disorder,bipolar disorder,15,31,PATIENT,mp01446,false,blood,Silva 2020
+134,B_stress,informant,informant.0,His maternal aunt reports that Mr. Novak has congestive heart failure.,congestive heart failure,congestive heart failure,45,69,PATIENT,mp00643,false,blood,ConText (Harkema 2009)
+7838,B_stress,informant,informant.0,His maternal grandmother reports that Mr. Haddad has schizophrenia.,schizophrenia,schizophrenia,53,66,PATIENT,mp00608,false,blood,ConText (Harkema 2009)
+8844,B_stress,non_blood_relative,non_blood_relative.1,"Mrs. Lopez lives with her partner, who has gout.",gout,gout,43,47,OTHER,,false,spouse,Silva 2020; Shen 2021
+5524,B_stress,patient_subject_family_history,patient_subject_family_history.0,Ms. Chen has a history of migraines.,migraines,migraines,26,35,PATIENT,mp01082,false,none,ConText (Harkema 2009)
+6363,B_stress,patient_subject_family_history,patient_subject_family_history.0,Ms. Nguyen has a history of congestive heart failure.,congestive heart failure,congestive heart failure,28,52,PATIENT,mp00997,false,none,ConText (Harkema 2009)
+3078,B_stress,informant,informant.0,His brother reports that the pt has sleep apnea.,sleep apnea,sleep apnea,36,47,PATIENT,mp00811,false,blood,ConText (Harkema 2009)
+590,A_typical,narrative,narrative.0,Ms. Garcia has multiple sclerosis.,multiple sclerosis,multiple sclerosis,15,33,PATIENT,,false,none,baseline
+799,B_stress,pronoun_coreference,pronoun_coreference.1,The pt came in today with his maternal aunt. He has Parkinson's disease.,Parkinson's disease,Parkinson's disease,52,71,PATIENT,mp00310,false,blood,Silva 2020
+4749,B_stress,non_blood_relative,non_blood_relative.1,"Ms. Nguyen lives with her husband, who has COPD.",COPD,COPD,43,47,OTHER,,false,spouse,Silva 2020; Shen 2021
+5546,B_stress,age_and_death,age_and_death.2,Her half-brother died at age 35 of complications of breast cancer.,breast cancer,breast cancer,52,65,OTHER,,false,blood,Wang 2017; Shen 2021
+10961,A_typical,narrative,narrative.0,Mr. Novak has eczema.,eczema,eczema,14,20,PATIENT,,false,none,baseline
+8856,B_stress,long_distance,long_distance.0,"Her uncle, who was seen at several clinics over the past year, has asthma.",asthma,asthma,67,73,OTHER,,false,blood,Silva 2020
+7620,B_stress,informant,informant.0,His aunt reports that Mr. Patel has coronary artery disease.,coronary artery disease,coronary artery disease,36,59,PATIENT,mp00846,false,blood,ConText (Harkema 2009)
+2320,B_stress,negation_scope,negation_scope.2,"Mr. Patel denies lung cancer, but his son has COPD.",COPD,COPD,46,50,OTHER,,false,blood,ConText (Harkema 2009)
+10583,B_stress,section_fragment,section_fragment.2,PMH: Huntington's disease. FHx: HLD -- son.,Huntington's disease,Huntington's disease,5,25,PATIENT,,false,blood,Wang 2017
+430,A_typical,narrative,narrative.2,His uncle has pancreatitis.,pancreatitis,pancreatitis,14,26,OTHER,,false,blood,baseline
+9398,B_stress,multi_relative_negation,multi_relative_negation.3,"Her grandfather has anemia, but Ms. Okafor has no history of Huntington's disease.",Huntington's disease,Huntington's disease,61,81,PATIENT,,true,blood,Silva 2020
+2315,B_stress,pronoun_coreference,pronoun_coreference.0,Mr. Haddad came in today with his aunt. She has high cholesterol.,high cholesterol,high cholesterol,48,64,OTHER,mp00322,false,blood,Silva 2020
+7798,B_stress,section_fragment,section_fragment.1,"FAMILY HISTORY: daughter: HLD, DM2.",high cholesterol,HLD,26,29,OTHER,,false,blood,Wang 2017
+5653,B_stress,negation_scope,negation_scope.0,No family history of lupus; Ms. Okafor has COPD.,COPD,COPD,43,47,PATIENT,,false,none,ConText (Harkema 2009)
+1298,B_stress,negation_scope,negation_scope.0,No family history of arthritis; the patient has schizophrenia.,schizophrenia,schizophrenia,48,61,PATIENT,,false,none,ConText (Harkema 2009)
+6114,B_stress,age_and_death,age_and_death.3,Mr. Brown was diagnosed with hepatitis C at age 58; his half-brother died at 83 of pancreatitis.,hepatitis C,hepatitis C,29,40,PATIENT,,false,blood,Wang 2017; Shen 2021
+10332,B_stress,section_fragment,section_fragment.2,PMH: eczema. FHx: lupus -- sister.,eczema,eczema,5,11,PATIENT,,false,blood,Wang 2017
+9888,B_stress,long_distance,long_distance.1,"Mr. Haddad, who was brought in today by his grandfather, has bipolar disorder.",bipolar disorder,bipolar disorder,61,77,PATIENT,,false,blood,Silva 2020
+396,B_stress,non_blood_relative,non_blood_relative.3,Her husband reports that Ms. Nguyen has kidney stones.,kidney stones,kidney stones,40,53,PATIENT,,false,spouse,Silva 2020; Shen 2021
+2542,B_stress,age_and_death,age_and_death.3,Mr. Haddad was diagnosed with diabetes at age 64; his half-brother died at 81 of breast cancer.,diabetes,diabetes,30,38,PATIENT,,false,blood,Wang 2017; Shen 2021
+4199,B_stress,multi_relative_negation,multi_relative_negation.1,"Mr. Brown has COPD, but his aunt has no history of chronic kidney disease.",chronic kidney disease,chronic kidney disease,51,73,OTHER,,true,blood,Silva 2020
+8972,A_typical,fh_trigger_phrase,fh_trigger_phrase.3,Mr. Haddad reports a past history of asthma.,asthma,asthma,37,43,PATIENT,,false,none,ConText (Harkema 2009)
+10170,B_stress,informant,informant.0,His brother reports that Mr. Brown has melanoma.,melanoma,melanoma,39,47,PATIENT,mp00633,false,blood,ConText (Harkema 2009)
+9709,B_stress,long_distance,long_distance.1,"Ms. Nguyen, who was brought in today by her paternal grandfather, has glaucoma.",glaucoma,glaucoma,70,78,PATIENT,,false,blood,Silva 2020
+5551,B_stress,negation_scope,negation_scope.0,No family history of diabetes; Mr. Novak has a seizure disorder.,a seizure disorder,a seizure disorder,45,63,PATIENT,,false,none,ConText (Harkema 2009)
+6482,B_stress,non_blood_relative,non_blood_relative.1,"Mr. Haddad lives with his partner, who has lupus.",lupus,lupus,43,48,OTHER,,false,spouse,Silva 2020; Shen 2021
+2902,B_stress,patient_subject_family_history,patient_subject_family_history.1,The patient has a family history of anemia.,anemia,anemia,36,42,OTHER,mp00944,false,none,ConText (Harkema 2009)
+727,A_typical,fh_trigger_phrase,fh_trigger_phrase.1,Family history is significant for Huntington's disease in his paternal grandfather.,Huntington's disease,Huntington's disease,34,54,OTHER,,false,blood,ConText (Harkema 2009)
+2829,B_stress,informant,informant.0,His cousin reports that the patient has melanoma.,melanoma,melanoma,40,48,PATIENT,mp00727,false,blood,ConText (Harkema 2009)
+2558,A_typical,fh_trigger_phrase,fh_trigger_phrase.3,Mr. Patel reports a past history of psoriasis.,psoriasis,psoriasis,36,45,PATIENT,,false,none,ConText (Harkema 2009)
+9469,B_stress,long_distance,long_distance.0,"Her aunt, who was seen at several clinics over the past year, has atrial fibrillation.",atrial fibrillation,atrial fibrillation,66,85,OTHER,,false,blood,Silva 2020
+10943,B_stress,negation_scope,negation_scope.3,Ms. Nguyen denies any family history of Huntington's disease.,Huntington's disease,Huntington's disease,40,60,OTHER,,true,none,ConText (Harkema 2009)
+780,B_stress,non_blood_relative,non_blood_relative.0,Mr. Novak's partner has lupus.,lupus,lupus,24,29,OTHER,,false,spouse,Silva 2020; Shen 2021
+10209,A_typical,fh_trigger_phrase,fh_trigger_phrase.0,Family history of celiac disease in his paternal grandfather.,celiac disease,celiac disease,18,32,OTHER,,false,blood,ConText (Harkema 2009)
+8312,B_stress,informant,informant.1,Mr. Patel reports that his father has melanoma.,melanoma,melanoma,38,46,OTHER,mp00702,false,blood,ConText (Harkema 2009)
+4669,B_stress,non_blood_relative,non_blood_relative.2,"The patient, who lives with his partner, has bipolar disorder.",bipolar disorder,bipolar disorder,45,61,PATIENT,,false,spouse,Silva 2020; Shen 2021
+6490,B_stress,long_distance,long_distance.0,"His uncle, who was seen at several clinics over the past year, has multiple sclerosis.",multiple sclerosis,multiple sclerosis,67,85,OTHER,,false,blood,Silva 2020
+4876,B_stress,pronoun_coreference,pronoun_coreference.0,Mr. Kim came in today with his mother. She has COPD.,COPD,COPD,47,51,OTHER,mp00495,false,blood,Silva 2020
+1508,B_stress,patient_subject_family_history,patient_subject_family_history.1,Mrs. Lopez has a family history of colon cancer.,colon cancer,colon cancer,35,47,OTHER,mp00971,false,none,ConText (Harkema 2009)
+2476,B_stress,patient_subject_family_history,patient_subject_family_history.1,Mr. Brown has a family history of celiac disease.,celiac disease,celiac disease,34,48,OTHER,mp01149,false,none,ConText (Harkema 2009)
+6851,A_typical,narrative,narrative.3,Her mother was diagnosed with diabetes.,diabetes,diabetes,30,38,OTHER,,false,blood,baseline
+9330,B_stress,pronoun_coreference,pronoun_coreference.0,Mr. Haddad came in today with his aunt. She has lupus.,lupus,lupus,48,53,OTHER,mp00381,false,blood,Silva 2020
+9069,A_typical,fh_trigger_phrase,fh_trigger_phrase.0,Family history of kidney stones in his mother.,kidney stones,kidney stones,18,31,OTHER,,false,blood,ConText (Harkema 2009)
+9587,B_stress,non_blood_relative,non_blood_relative.0,The pt's partner has anemia.,anemia,anemia,21,27,OTHER,,false,spouse,Silva 2020; Shen 2021
+8832,B_stress,informant,informant.1,The pt reports that his brother has sleep apnea.,sleep apnea,sleep apnea,36,47,OTHER,mp00811,false,blood,ConText (Harkema 2009)
+7866,B_stress,section_fragment,section_fragment.3,FAMILY HISTORY: noncontributory. ASSESSMENT: Mr. Brown with high cholesterol.,high cholesterol,high cholesterol,60,76,PATIENT,,false,none,Wang 2017
+10843,B_stress,multi_relative_negation,multi_relative_negation.2,"The patient has hypothyroidism, but his paternal grandfather has no history of psoriasis.",hypothyroidism,hypothyroidism,16,30,PATIENT,,false,blood,Silva 2020
+23,B_stress,section_fragment,section_fragment.2,PMH: diabetes. FHx: gout -- maternal grandmother.,diabetes,diabetes,5,13,PATIENT,,false,blood,Wang 2017
+8435,B_stress,long_distance,long_distance.0,"Her father, who was seen at several clinics over the past year, has chronic kidney disease.",chronic kidney disease,chronic kidney disease,68,90,OTHER,,false,blood,Silva 2020
+4678,B_stress,pronoun_coreference,pronoun_coreference.1,Mr. Haddad came in today with his mother. He has breast cancer.,breast cancer,breast cancer,49,62,PATIENT,mp00458,false,blood,Silva 2020
+4698,B_stress,informant,informant.1,Mr. Haddad reports that his aunt has sleep apnea.,sleep apnea,sleep apnea,37,48,OTHER,mp00650,false,blood,ConText (Harkema 2009)
+9801,B_stress,pronoun_coreference,pronoun_coreference.1,Mr. Novak came in today with his maternal grandmother. He has tuberculosis.,tuberculosis,tuberculosis,62,74,PATIENT,mp00434,false,blood,Silva 2020
+10466,B_stress,informant,informant.1,Ms. Okafor reports that her cousin has depression.,depression,depression,39,49,OTHER,mp00648,false,blood,ConText (Harkema 2009)
+9913,B_stress,informant,informant.0,Her cousin reports that Ms. Okafor has depression.,depression,depression,39,49,PATIENT,mp00648,false,blood,ConText (Harkema 2009)
+7624,B_stress,section_fragment,section_fragment.3,FAMILY HISTORY: noncontributory. ASSESSMENT: Mr. Patel with migraines.,migraines,migraines,60,69,PATIENT,,false,none,Wang 2017
+557,B_stress,section_fragment,section_fragment.2,PMH: lupus. FHx: breast CA -- aunt.,lupus,lupus,5,10,PATIENT,,false,blood,Wang 2017
+3100,B_stress,long_distance,long_distance.0,"His aunt, who was seen at several clinics over the past year, has a seizure disorder.",a seizure disorder,a seizure disorder,66,84,OTHER,,false,blood,Silva 2020
+28,B_stress,patient_subject_family_history,patient_subject_family_history.1,The pt has a family history of depression.,depression,depression,31,41,OTHER,mp00982,false,none,ConText (Harkema 2009)
+7740,B_stress,patient_subject_family_history,patient_subject_family_history.0,Mr. Haddad has a history of sleep apnea.,sleep apnea,sleep apnea,28,39,PATIENT,mp00920,false,none,ConText (Harkema 2009)
+10730,A_typical,fh_trigger_phrase,fh_trigger_phrase.3,Mr. Kim reports a past history of migraines.,migraines,migraines,34,43,PATIENT,,false,none,ConText (Harkema 2009)
+2261,B_stress,multi_relative_negation,multi_relative_negation.3,"His paternal grandfather has lung cancer, but the pt has no history of eczema.",eczema,eczema,71,77,PATIENT,,true,blood,Silva 2020
+6380,B_stress,negation_scope,negation_scope.3,The pt denies any family history of hepatitis C.,hepatitis C,hepatitis C,36,47,OTHER,,true,none,ConText (Harkema 2009)
+8601,B_stress,multi_relative_negation,multi_relative_negation.0,"Her father had chronic kidney disease, but her maternal grandmother has no history of breast cancer.",chronic kidney disease,chronic kidney disease,15,37,OTHER,,false,blood,Silva 2020
+8350,B_stress,contrast,contrast.0,"Ms. Chen has multiple sclerosis, and her maternal grandmother has hypertension.",multiple sclerosis,multiple sclerosis,13,31,PATIENT,mp01463,false,blood,Silva 2020
+6254,B_stress,section_fragment,section_fragment.3,FAMILY HISTORY: noncontributory. ASSESSMENT: Ms. Garcia with kidney stones.,kidney stones,kidney stones,61,74,PATIENT,,false,none,Wang 2017
+2851,B_stress,pronoun_coreference,pronoun_coreference.1,Mr. Haddad came in today with his aunt. He has lupus.,lupus,lupus,47,52,PATIENT,mp00381,false,blood,Silva 2020
+154,B_stress,patient_subject_family_history,patient_subject_family_history.0,Mrs. Lopez has a history of anemia.,anemia,anemia,28,34,PATIENT,mp01110,false,none,ConText (Harkema 2009)
+8533,A_typical,fh_trigger_phrase,fh_trigger_phrase.0,Family history of congestive heart failure in his half-brother.,congestive heart failure,congestive heart failure,18,42,OTHER,,false,blood,ConText (Harkema 2009)
+4168,B_stress,age_and_death,age_and_death.0,Her maternal aunt was diagnosed with pancreatitis at age 35.,pancreatitis,pancreatitis,37,49,OTHER,mp00216,false,blood,Wang 2017; Shen 2021
+8320,B_stress,contrast,contrast.0,"Mr. Patel has lupus, and his half-brother has hepatitis C.",lupus,lupus,14,19,PATIENT,mp01213,false,blood,Silva 2020
+2663,B_stress,contrast,contrast.1,"The patient has tuberculosis, and his sister has Huntington's disease.",Huntington's disease,Huntington's disease,49,69,OTHER,mp01500,false,blood,Silva 2020
+3243,B_stress,multi_relative_negation,multi_relative_negation.1,"Mr. Patel has tuberculosis, but his cousin has no history of coronary artery disease.",coronary artery disease,coronary artery disease,61,84,OTHER,,true,blood,Silva 2020
+6089,A_typical,narrative,narrative.0,Ms. Chen has pancreatitis.,pancreatitis,pancreatitis,13,25,PATIENT,,false,none,baseline
+4589,A_typical,narrative,narrative.3,Her maternal grandmother was diagnosed with multiple sclerosis.,multiple sclerosis,multiple sclerosis,44,62,OTHER,,false,blood,baseline
+2791,B_stress,multi_relative_negation,multi_relative_negation.3,"Her half-brother has diabetes, but Ms. Garcia has no history of tuberculosis.",tuberculosis,tuberculosis,64,76,PATIENT,,true,blood,Silva 2020
+2372,B_stress,negation_scope,negation_scope.1,Ms. Chen has coronary artery disease; family history is negative.,coronary artery disease,coronary artery disease,13,36,PATIENT,,false,none,ConText (Harkema 2009)
+8357,B_stress,long_distance,long_distance.1,"Ms. Garcia, who was brought in today by her father, has high cholesterol.",high cholesterol,high cholesterol,56,72,PATIENT,,false,blood,Silva 2020
+8195,B_stress,multi_relative_negation,multi_relative_negation.1,"Mrs. Lopez has asthma, but her daughter has no history of anxiety.",anxiety,anxiety,58,65,OTHER,,true,blood,Silva 2020
+1434,B_stress,age_and_death,age_and_death.2,His maternal grandmother died at age 37 of complications of chronic kidney disease.,chronic kidney disease,chronic kidney disease,60,82,OTHER,,false,blood,Wang 2017; Shen 2021
+6212,B_stress,section_fragment,section_fragment.1,"FAMILY HISTORY: sister: glaucoma, OSA.",glaucoma,glaucoma,24,32,OTHER,,false,blood,Wang 2017
+4329,B_stress,negation_scope,negation_scope.0,No family history of anxiety; Ms. Chen has Parkinson's disease.,Parkinson's disease,Parkinson's disease,43,62,PATIENT,,false,none,ConText (Harkema 2009)
+1456,B_stress,contrast,contrast.0,"The patient has hypertension, and her daughter has depression.",hypertension,hypertension,16,28,PATIENT,mp01333,false,blood,Silva 2020
+6420,B_stress,pronoun_coreference,pronoun_coreference.1,Ms. Nguyen came in today with her uncle. She has melanoma.,melanoma,melanoma,49,57,PATIENT,mp00450,false,blood,Silva 2020
+10397,A_typical,narrative,narrative.1,Ms. Nguyen was diagnosed with eczema last year.,eczema,eczema,30,36,PATIENT,,false,none,baseline
+8411,A_typical,fh_trigger_phrase,fh_trigger_phrase.3,Ms. Garcia reports a past history of psoriasis.,psoriasis,psoriasis,37,46,PATIENT,,false,none,ConText (Harkema 2009)
+2633,B_stress,section_fragment,section_fragment.1,"FAMILY HISTORY: son: celiac disease, osteoporosis.",celiac disease,celiac disease,21,35,OTHER,,false,blood,Wang 2017
+2533,B_stress,long_distance,long_distance.1,"The pt, who was brought in today by his cousin, has bipolar disorder.",bipolar disorder,bipolar disorder,52,68,PATIENT,,false,blood,Silva 2020
+10651,B_stress,section_fragment,section_fragment.2,PMH: colon CA. FHx: TB -- uncle.,colon cancer,colon CA,5,13,PATIENT,,false,blood,Wang 2017
+8616,B_stress,informant,informant.1,The patient reports that his cousin has a seizure disorder.,a seizure disorder,a seizure disorder,40,58,OTHER,mp00856,false,blood,ConText (Harkema 2009)
+2349,B_stress,pronoun_coreference,pronoun_coreference.0,Ms. Nguyen came in today with her uncle. He has melanoma.,melanoma,melanoma,48,56,OTHER,mp00450,false,blood,Silva 2020
+9448,B_stress,age_and_death,age_and_death.1,Ms. Chen was diagnosed with hepatitis C at age 44.,hepatitis C,hepatitis C,28,39,PATIENT,mp00115,false,none,Wang 2017; Shen 2021
+8216,B_stress,informant,informant.0,Her cousin reports that the pt has breast cancer.,breast cancer,breast cancer,35,48,PATIENT,mp00623,false,blood,ConText (Harkema 2009)
+4407,B_stress,contrast,contrast.0,"The patient has hypertension, and his brother has congestive heart failure.",hypertension,hypertension,16,28,PATIENT,mp01452,false,blood,Silva 2020
+5780,B_stress,negation_scope,negation_scope.2,"Mrs. Lopez denies lung cancer, but her paternal grandfather has breast cancer.",breast cancer,breast cancer,64,77,OTHER,,false,blood,ConText (Harkema 2009)
+7550,B_stress,multi_relative_negation,multi_relative_negation.1,"Ms. Okafor has pancreatitis, but her cousin has no history of bipolar disorder.",bipolar disorder,bipolar disorder,62,78,OTHER,,true,blood,Silva 2020
+5028,B_stress,patient_subject_family_history,patient_subject_family_history.0,Mrs. Lopez has a history of coronary artery disease.,coronary artery disease,coronary artery disease,28,51,PATIENT,mp01111,false,none,ConText (Harkema 2009)
+7029,B_stress,pronoun_coreference,pronoun_coreference.0,Mr. Patel came in today with his daughter. She has celiac disease.,celiac disease,celiac disease,51,65,OTHER,mp00398,false,blood,Silva 2020
+640,B_stress,age_and_death,age_and_death.0,Her cousin was diagnosed with tuberculosis at age 48.,tuberculosis,tuberculosis,30,42,OTHER,mp00281,false,blood,Wang 2017; Shen 2021
+1278,A_typical,narrative,narrative.2,Her grandfather has bipolar disorder.,bipolar disorder,bipolar disorder,20,36,OTHER,,false,blood,baseline
+6974,B_stress,multi_relative_negation,multi_relative_negation.1,"The patient has pancreatitis, but his mother has no history of schizophrenia.",schizophrenia,schizophrenia,63,76,OTHER,,true,blood,Silva 2020
+5528,A_typical,fh_trigger_phrase,fh_trigger_phrase.2,The patient's past medical history is significant for glaucoma.,glaucoma,glaucoma,54,62,PATIENT,,false,none,ConText (Harkema 2009)
+5247,B_stress,section_fragment,section_fragment.1,"FAMILY HISTORY: paternal grandfather: migraines, glaucoma.",migraines,migraines,38,47,OTHER,,false,blood,Wang 2017
+6758,B_stress,age_and_death,age_and_death.2,Her maternal aunt died at age 55 of complications of Parkinson's disease.,Parkinson's disease,Parkinson's disease,53,72,OTHER,,false,blood,Wang 2017; Shen 2021
+932,B_stress,age_and_death,age_and_death.1,Mr. Haddad was diagnosed with breast cancer at age 63.,breast cancer,breast cancer,30,43,PATIENT,mp00285,false,none,Wang 2017; Shen 2021
+1166,A_typical,narrative,narrative.2,Her daughter has psoriasis.,psoriasis,psoriasis,17,26,OTHER,,false,blood,baseline
+4078,B_stress,patient_subject_family_history,patient_subject_family_history.1,Mr. Patel has a family history of chronic kidney disease.,chronic kidney disease,chronic kidney disease,34,56,OTHER,mp01036,false,none,ConText (Harkema 2009)
+4973,B_stress,patient_subject_family_history,patient_subject_family_history.0,The patient has a history of anemia.,anemia,anemia,29,35,PATIENT,mp00944,false,none,ConText (Harkema 2009)
+2361,B_stress,non_blood_relative,non_blood_relative.2,"Mr. Haddad, who lives with his partner, has eczema.",eczema,eczema,44,50,PATIENT,,false,spouse,Silva 2020; Shen 2021
+7747,A_typical,narrative,narrative.2,His aunt has multiple sclerosis.,multiple sclerosis,multiple sclerosis,13,31,OTHER,,false,blood,baseline
+5072,A_typical,fh_trigger_phrase,fh_trigger_phrase.1,Family history is significant for chronic kidney disease in his aunt.,chronic kidney disease,chronic kidney disease,34,56,OTHER,,false,blood,ConText (Harkema 2009)
+8789,B_stress,multi_relative_negation,multi_relative_negation.2,"The pt has anxiety, but her half-brother has no history of hypothyroidism.",anxiety,anxiety,11,18,PATIENT,,false,blood,Silva 2020
+8063,B_stress,multi_relative_negation,multi_relative_negation.3,"His daughter has arthritis, but Mr. Brown has no history of hepatitis C.",hepatitis C,hepatitis C,60,71,PATIENT,,true,blood,Silva 2020
+2448,B_stress,age_and_death,age_and_death.0,Her aunt was diagnosed with hepatitis C at age 44.,hepatitis C,hepatitis C,28,39,OTHER,mp00115,false,blood,Wang 2017; Shen 2021
+7370,B_stress,informant,informant.1,Mr. Haddad reports that his aunt has pancreatitis.,pancreatitis,pancreatitis,37,49,OTHER,mp00601,false,blood,ConText (Harkema 2009)
+7625,B_stress,section_fragment,section_fragment.3,FAMILY HISTORY: noncontributory. ASSESSMENT: Mr. Brown with pancreatitis.,pancreatitis,pancreatitis,60,72,PATIENT,,false,none,Wang 2017
+11216,B_stress,contrast,contrast.0,"Mr. Brown has anemia, and his cousin has sleep apnea.",anemia,anemia,14,20,PATIENT,mp01437,false,blood,Silva 2020
+5133,A_typical,narrative,narrative.3,Her grandmother was diagnosed with migraines.,migraines,migraines,35,44,OTHER,,false,blood,baseline
+6256,B_stress,negation_scope,negation_scope.1,Mr. Kim has tuberculosis; family history is negative.,tuberculosis,tuberculosis,12,24,PATIENT,,false,none,ConText (Harkema 2009)
+1143,B_stress,non_blood_relative,non_blood_relative.0,Ms. Garcia's husband has breast cancer.,breast cancer,breast cancer,25,38,OTHER,,false,spouse,Silva 2020; Shen 2021
+3394,B_stress,long_distance,long_distance.1,"Ms. Garcia, who was brought in today by her aunt, has psoriasis.",psoriasis,psoriasis,54,63,PATIENT,,false,blood,Silva 2020
+10035,B_stress,pronoun_coreference,pronoun_coreference.1,Ms. Nguyen came in today with her half-brother. She has kidney stones.,kidney stones,kidney stones,56,69,PATIENT,mp00344,false,blood,Silva 2020
+5240,B_stress,section_fragment,section_fragment.1,"FAMILY HISTORY: aunt: CHF, asthma.",congestive heart failure,CHF,22,25,OTHER,,false,blood,Wang 2017
+7584,B_stress,contrast,contrast.1,"The patient has osteoporosis, and his sister has schizophrenia.",schizophrenia,schizophrenia,49,62,OTHER,mp01466,false,blood,Silva 2020
+7779,A_typical,narrative,narrative.2,His maternal aunt has eczema.,eczema,eczema,22,28,OTHER,,false,blood,baseline
+4530,B_stress,section_fragment,section_fragment.0,FHx: diabetes -- daughter.,diabetes,diabetes,5,13,OTHER,,false,blood,Wang 2017
+3555,A_typical,narrative,narrative.2,Her uncle has kidney stones.,kidney stones,kidney stones,14,27,OTHER,,false,blood,baseline
+68,B_stress,age_and_death,age_and_death.0,His half-brother was diagnosed with COPD at age 39.,COPD,COPD,36,40,OTHER,mp00226,false,blood,Wang 2017; Shen 2021
+10317,B_stress,non_blood_relative,non_blood_relative.3,His partner reports that the pt has anxiety.,anxiety,anxiety,36,43,PATIENT,,false,spouse,Silva 2020; Shen 2021
+523,B_stress,non_blood_relative,non_blood_relative.3,His partner reports that the patient has tuberculosis.,tuberculosis,tuberculosis,41,53,PATIENT,,false,spouse,Silva 2020; Shen 2021
+5366,B_stress,patient_subject_family_history,patient_subject_family_history.1,Mrs. Lopez has a family history of coronary artery disease.,coronary artery disease,coronary artery disease,35,58,OTHER,mp01111,false,none,ConText (Harkema 2009)
+8741,A_typical,narrative,narrative.1,Mr. Patel was diagnosed with chronic kidney disease last year.,chronic kidney disease,chronic kidney disease,29,51,PATIENT,,false,none,baseline
+3891,B_stress,section_fragment,section_fragment.2,PMH: migraines. FHx: hypothyroidism -- grandmother.,migraines,migraines,5,14,PATIENT,,false,blood,Wang 2017
+713,A_typical,fh_trigger_phrase,fh_trigger_phrase.1,Family history is significant for melanoma in her sister.,melanoma,melanoma,34,42,OTHER,,false,blood,ConText (Harkema 2009)
+10086,A_typical,fh_trigger_phrase,fh_trigger_phrase.1,Family history is significant for psoriasis in his father.,psoriasis,psoriasis,34,43,OTHER,,false,blood,ConText (Harkema 2009)
+5549,B_stress,section_fragment,section_fragment.1,"FAMILY HISTORY: aunt: glaucoma, arthritis.",glaucoma,glaucoma,22,30,OTHER,,false,blood,Wang 2017
+8950,B_stress,long_distance,long_distance.0,"His grandmother, who was seen at several clinics over the past year, has colon cancer.",colon cancer,colon cancer,73,85,OTHER,,false,blood,Silva 2020
+2510,B_stress,section_fragment,section_fragment.2,PMH: HTN. FHx: celiac disease -- uncle.,hypertension,HTN,5,8,PATIENT,,false,blood,Wang 2017
+9845,B_stress,section_fragment,section_fragment.2,PMH: psoriasis. FHx: AFib -- aunt.,psoriasis,psoriasis,5,14,PATIENT,,false,blood,Wang 2017
+8928,A_typical,fh_trigger_phrase,fh_trigger_phrase.1,Family history is significant for coronary artery disease in his aunt.,coronary artery disease,coronary artery disease,34,57,OTHER,,false,blood,ConText (Harkema 2009)
+7464,B_stress,multi_relative_negation,multi_relative_negation.3,"Her cousin has gout, but the pt has no history of chronic kidney disease.",chronic kidney disease,chronic kidney disease,50,72,PATIENT,,true,blood,Silva 2020
+5852,B_stress,patient_subject_family_history,patient_subject_family_history.0,The patient has a history of a seizure disorder.,a seizure disorder,a seizure disorder,29,47,PATIENT,mp01135,false,none,ConText (Harkema 2009)
+10455,B_stress,multi_relative_negation,multi_relative_negation.2,"Ms. Chen has congestive heart failure, but her half-brother has no history of a seizure disorder.",congestive heart failure,congestive heart failure,13,37,PATIENT,,false,blood,Silva 2020
+2214,A_typical,narrative,narrative.3,His maternal grandmother was diagnosed with lung cancer.,lung cancer,lung cancer,44,55,OTHER,,false,blood,baseline
+9520,A_typical,fh_trigger_phrase,fh_trigger_phrase.2,Mr. Patel's past medical history is significant for pancreatitis.,pancreatitis,pancreatitis,52,64,PATIENT,,false,none,ConText (Harkema 2009)
+6255,A_typical,narrative,narrative.3,His uncle was diagnosed with diabetes.,diabetes,diabetes,29,37,OTHER,,false,blood,baseline
+1555,B_stress,multi_relative_negation,multi_relative_negation.2,"Ms. Chen has Parkinson's disease, but her mother has no history of osteoporosis.",Parkinson's disease,Parkinson's disease,13,32,PATIENT,,false,blood,Silva 2020
+3056,B_stress,non_blood_relative,non_blood_relative.0,Mr. Novak's partner has colon cancer.,colon cancer,colon cancer,24,36,OTHER,,false,spouse,Silva 2020; Shen 2021
+9612,A_typical,fh_trigger_phrase,fh_trigger_phrase.0,Family history of epilepsy in his maternal aunt.,epilepsy,epilepsy,18,26,OTHER,,false,blood,ConText (Harkema 2009)
+7684,B_stress,patient_subject_family_history,patient_subject_family_history.1,Mr. Haddad has a family history of bipolar disorder.,bipolar disorder,bipolar disorder,35,51,OTHER,mp01136,false,none,ConText (Harkema 2009)
+4598,B_stress,informant,informant.0,His cousin reports that the patient has a seizure disorder.,a seizure disorder,a seizure disorder,40,58,PATIENT,mp00856,false,blood,ConText (Harkema 2009)
+8266,B_stress,long_distance,long_distance.1,"The patient, who was brought in today by her aunt, has atrial fibrillation.",atrial fibrillation,atrial fibrillation,55,74,PATIENT,,false,blood,Silva 2020
+2211,B_stress,negation_scope,negation_scope.3,Mr. Kim denies any family history of migraines.,migraines,migraines,37,46,OTHER,,true,none,ConText (Harkema 2009)
+5144,B_stress,non_blood_relative,non_blood_relative.2,"Mr. Novak, who lives with his partner, has epilepsy.",epilepsy,epilepsy,43,51,PATIENT,,false,spouse,Silva 2020; Shen 2021
+820,B_stress,negation_scope,negation_scope.0,No family history of breast cancer; Mr. Kim has celiac disease.,celiac disease,celiac disease,48,62,PATIENT,,false,none,ConText (Harkema 2009)
+6247,B_stress,negation_scope,negation_scope.1,Mr. Brown has eczema; family history is negative.,eczema,eczema,14,20,PATIENT,,false,none,ConText (Harkema 2009)
+7405,B_stress,long_distance,long_distance.0,"Her grandmother, who was seen at several clinics over the past year, has anemia.",anemia,anemia,73,79,OTHER,,false,blood,Silva 2020
+4052,B_stress,patient_subject_family_history,patient_subject_family_history.0,Ms. Okafor has a history of sleep apnea.,sleep apnea,sleep apnea,28,39,PATIENT,mp00903,false,none,ConText (Harkema 2009)
+6583,B_stress,long_distance,long_distance.1,"Mr. Haddad, who was brought in today by his father, has anxiety.",anxiety,anxiety,56,63,PATIENT,,false,blood,Silva 2020
+6188,B_stress,informant,informant.1,The patient reports that his maternal grandmother has atrial fibrillation.,atrial fibrillation,atrial fibrillation,54,73,OTHER,mp00898,false,blood,ConText (Harkema 2009)
+2720,A_typical,narrative,narrative.1,The pt was diagnosed with celiac disease last year.,celiac disease,celiac disease,26,40,PATIENT,,false,none,baseline
+10564,B_stress,non_blood_relative,non_blood_relative.3,His wife reports that the patient has tuberculosis.,tuberculosis,tuberculosis,38,50,PATIENT,,false,spouse,Silva 2020; Shen 2021
+8419,B_stress,pronoun_coreference,pronoun_coreference.1,Mrs. Lopez came in today with her son. She has tuberculosis.,tuberculosis,tuberculosis,47,59,PATIENT,mp00412,false,blood,Silva 2020
+3946,A_typical,narrative,narrative.3,Her grandfather was diagnosed with bipolar disorder.,bipolar disorder,bipolar disorder,35,51,OTHER,,false,blood,baseline
+5035,A_typical,narrative,narrative.2,His paternal grandfather has congestive heart failure.,congestive heart failure,congestive heart failure,29,53,OTHER,,false,blood,baseline
+1365,B_stress,section_fragment,section_fragment.1,"FAMILY HISTORY: sister: COPD, high cholesterol.",COPD,COPD,24,28,OTHER,,false,blood,Wang 2017
+3392,B_stress,pronoun_coreference,pronoun_coreference.1,Mr. Haddad came in today with his grandmother. He has scoliosis.,scoliosis,scoliosis,54,63,PATIENT,mp00576,false,blood,Silva 2020
+7603,B_stress,non_blood_relative,non_blood_relative.1,"Mr. Haddad lives with his wife, who has eczema.",eczema,eczema,40,46,OTHER,,false,spouse,Silva 2020; Shen 2021
+6216,A_typical,narrative,narrative.2,His aunt has diabetes.,diabetes,diabetes,13,21,OTHER,,false,blood,baseline
+3357,B_stress,informant,informant.1,Mr. Haddad reports that his maternal grandmother has schizophrenia.,schizophrenia,schizophrenia,53,66,OTHER,mp00608,false,blood,ConText (Harkema 2009)
+10095,B_stress,long_distance,long_distance.0,"His half-brother, who was seen at several clinics over the past year, has colon cancer.",colon cancer,colon cancer,74,86,OTHER,,false,blood,Silva 2020
+8254,B_stress,multi_relative_negation,multi_relative_negation.3,"His grandmother has epilepsy, but the patient has no history of sleep apnea.",sleep apnea,sleep apnea,64,75,PATIENT,,true,blood,Silva 2020
+10827,A_typical,narrative,narrative.0,The patient has celiac disease.,celiac disease,celiac disease,16,30,PATIENT,,false,none,baseline
+1922,B_stress,pronoun_coreference,pronoun_coreference.0,Mr. Novak came in today with his maternal grandmother. She has schizophrenia.,schizophrenia,schizophrenia,63,76,OTHER,mp00599,false,blood,Silva 2020
+6070,B_stress,contrast,contrast.1,"Ms. Chen has gout, and her cousin has diabetes.",diabetes,diabetes,38,46,OTHER,mp01416,false,blood,Silva 2020

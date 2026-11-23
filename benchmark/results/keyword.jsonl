@@ -1,0 +1,600 @@
+{"id": "10051", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "8633", "method": "keyword", "prediction": "OTHER", "trigger": "Family history"}
+{"id": "4593", "method": "keyword", "prediction": "OTHER", "trigger": "partner"}
+{"id": "4675", "method": "keyword", "prediction": "OTHER", "trigger": "sister"}
+{"id": "11149", "method": "keyword", "prediction": "OTHER", "trigger": "uncle"}
+{"id": "6623", "method": "keyword", "prediction": "OTHER", "trigger": "family history"}
+{"id": "4453", "method": "keyword", "prediction": "OTHER", "trigger": "aunt"}
+{"id": "3385", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "1458", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "5796", "method": "keyword", "prediction": "OTHER", "trigger": "aunt"}
+{"id": "8956", "method": "keyword", "prediction": "OTHER", "trigger": "aunt"}
+{"id": "8026", "method": "keyword", "prediction": "OTHER", "trigger": "family history"}
+{"id": "3144", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "6202", "method": "keyword", "prediction": "OTHER", "trigger": "cousin"}
+{"id": "6157", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "7649", "method": "keyword", "prediction": "OTHER", "trigger": "aunt"}
+{"id": "3916", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "8773", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "2536", "method": "keyword", "prediction": "OTHER", "trigger": "FHx"}
+{"id": "5174", "method": "keyword", "prediction": "OTHER", "trigger": "son"}
+{"id": "1160", "method": "keyword", "prediction": "OTHER", "trigger": "wife"}
+{"id": "3702", "method": "keyword", "prediction": "OTHER", "trigger": "brother"}
+{"id": "5031", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "116", "method": "keyword", "prediction": "OTHER", "trigger": "son"}
+{"id": "1254", "method": "keyword", "prediction": "OTHER", "trigger": "grandmother"}
+{"id": "9746", "method": "keyword", "prediction": "OTHER", "trigger": "FAMILY HISTORY"}
+{"id": "6713", "method": "keyword", "prediction": "OTHER", "trigger": "grandfather"}
+{"id": "8115", "method": "keyword", "prediction": "OTHER", "trigger": "grandmother"}
+{"id": "3913", "method": "keyword", "prediction": "OTHER", "trigger": "partner"}
+{"id": "6221", "method": "keyword", "prediction": "OTHER", "trigger": "FHx"}
+{"id": "969", "method": "keyword", "prediction": "OTHER", "trigger": "uncle"}
+{"id": "7951", "method": "keyword", "prediction": "OTHER", "trigger": "father"}
+{"id": "6910", "method": "keyword", "prediction": "OTHER", "trigger": "partner"}
+{"id": "6613", "method": "keyword", "prediction": "OTHER", "trigger": "aunt"}
+{"id": "5472", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "9724", "method": "keyword", "prediction": "OTHER", "trigger": "aunt"}
+{"id": "8146", "method": "keyword", "prediction": "OTHER", "trigger": "grandmother"}
+{"id": "8628", "method": "keyword", "prediction": "OTHER", "trigger": "grandmother"}
+{"id": "8925", "method": "keyword", "prediction": "OTHER", "trigger": "mother"}
+{"id": "2617", "method": "keyword", "prediction": "OTHER", "trigger": "uncle"}
+{"id": "2889", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "5701", "method": "keyword", "prediction": "OTHER", "trigger": "family history"}
+{"id": "10914", "method": "keyword", "prediction": "OTHER", "trigger": "family history"}
+{"id": "9430", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "607", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "5754", "method": "keyword", "prediction": "OTHER", "trigger": "brother"}
+{"id": "5557", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "10599", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "310", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "2331", "method": "keyword", "prediction": "OTHER", "trigger": "sister"}
+{"id": "11047", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "2760", "method": "keyword", "prediction": "OTHER", "trigger": "cousin"}
+{"id": "3983", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "8577", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "3790", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "49", "method": "keyword", "prediction": "OTHER", "trigger": "family history"}
+{"id": "8452", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "2322", "method": "keyword", "prediction": "OTHER", "trigger": "family history"}
+{"id": "4251", "method": "keyword", "prediction": "OTHER", "trigger": "aunt"}
+{"id": "7706", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "2300", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "3788", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "3378", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "4875", "method": "keyword", "prediction": "OTHER", "trigger": "husband"}
+{"id": "3268", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "5320", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "693", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "6542", "method": "keyword", "prediction": "OTHER", "trigger": "partner"}
+{"id": "10810", "method": "keyword", "prediction": "OTHER", "trigger": "uncle"}
+{"id": "6450", "method": "keyword", "prediction": "OTHER", "trigger": "brother"}
+{"id": "4754", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "3720", "method": "keyword", "prediction": "OTHER", "trigger": "partner"}
+{"id": "4296", "method": "keyword", "prediction": "OTHER", "trigger": "wife"}
+{"id": "2959", "method": "keyword", "prediction": "OTHER", "trigger": "aunt"}
+{"id": "9417", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "4992", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "11217", "method": "keyword", "prediction": "OTHER", "trigger": "family history"}
+{"id": "50", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "8882", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "1323", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "6917", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "6516", "method": "keyword", "prediction": "OTHER", "trigger": "cousin"}
+{"id": "410", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "3342", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "2345", "method": "keyword", "prediction": "OTHER", "trigger": "aunt"}
+{"id": "6433", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "9497", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "2221", "method": "keyword", "prediction": "OTHER", "trigger": "grandmother"}
+{"id": "4180", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "7056", "method": "keyword", "prediction": "OTHER", "trigger": "cousin"}
+{"id": "10394", "method": "keyword", "prediction": "OTHER", "trigger": "brother"}
+{"id": "5994", "method": "keyword", "prediction": "OTHER", "trigger": "partner"}
+{"id": "5025", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "1991", "method": "keyword", "prediction": "OTHER", "trigger": "son"}
+{"id": "8769", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "4103", "method": "keyword", "prediction": "OTHER", "trigger": "father"}
+{"id": "6065", "method": "keyword", "prediction": "OTHER", "trigger": "Family history"}
+{"id": "10371", "method": "keyword", "prediction": "OTHER", "trigger": "grandmother"}
+{"id": "3482", "method": "keyword", "prediction": "OTHER", "trigger": "Family history"}
+{"id": "10337", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "9089", "method": "keyword", "prediction": "OTHER", "trigger": "grandmother"}
+{"id": "6421", "method": "keyword", "prediction": "OTHER", "trigger": "cousin"}
+{"id": "5322", "method": "keyword", "prediction": "OTHER", "trigger": "wife"}
+{"id": "5076", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "5554", "method": "keyword", "prediction": "OTHER", "trigger": "son"}
+{"id": "9115", "method": "keyword", "prediction": "OTHER", "trigger": "aunt"}
+{"id": "10953", "method": "keyword", "prediction": "OTHER", "trigger": "FHx"}
+{"id": "2269", "method": "keyword", "prediction": "OTHER", "trigger": "grandfather"}
+{"id": "6064", "method": "keyword", "prediction": "OTHER", "trigger": "husband"}
+{"id": "9269", "method": "keyword", "prediction": "OTHER", "trigger": "father"}
+{"id": "2528", "method": "keyword", "prediction": "OTHER", "trigger": "husband"}
+{"id": "3896", "method": "keyword", "prediction": "OTHER", "trigger": "Family history"}
+{"id": "7213", "method": "keyword", "prediction": "OTHER", "trigger": "FAMILY HISTORY"}
+{"id": "2428", "method": "keyword", "prediction": "OTHER", "trigger": "cousin"}
+{"id": "5277", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "4810", "method": "keyword", "prediction": "OTHER", "trigger": "half-brother"}
+{"id": "8610", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "5063", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "5215", "method": "keyword", "prediction": "OTHER", "trigger": "daughter"}
+{"id": "8978", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "9882", "method": "keyword", "prediction": "OTHER", "trigger": "half-brother"}
+{"id": "3881", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "2527", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "10817", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "9703", "method": "keyword", "prediction": "OTHER", "trigger": "grandfather"}
+{"id": "6627", "method": "keyword", "prediction": "OTHER", "trigger": "grandfather"}
+{"id": "1968", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "3551", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "6025", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "7006", "method": "keyword", "prediction": "OTHER", "trigger": "mother"}
+{"id": "2312", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "7441", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "4457", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "4609", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "8065", "method": "keyword", "prediction": "OTHER", "trigger": "cousin"}
+{"id": "905", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "2999", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "2941", "method": "keyword", "prediction": "OTHER", "trigger": "brother"}
+{"id": "375", "method": "keyword", "prediction": "OTHER", "trigger": "uncle"}
+{"id": "6206", "method": "keyword", "prediction": "OTHER", "trigger": "aunt"}
+{"id": "10884", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "3281", "method": "keyword", "prediction": "OTHER", "trigger": "uncle"}
+{"id": "9506", "method": "keyword", "prediction": "OTHER", "trigger": "Family history"}
+{"id": "4016", "method": "keyword", "prediction": "OTHER", "trigger": "partner"}
+{"id": "700", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "3732", "method": "keyword", "prediction": "OTHER", "trigger": "daughter"}
+{"id": "9590", "method": "keyword", "prediction": "OTHER", "trigger": "FAMILY HISTORY"}
+{"id": "1931", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "7842", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "11293", "method": "keyword", "prediction": "OTHER", "trigger": "son"}
+{"id": "9141", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "11301", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "5609", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "10328", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "5829", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "1272", "method": "keyword", "prediction": "OTHER", "trigger": "mother"}
+{"id": "10795", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "9445", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "10689", "method": "keyword", "prediction": "OTHER", "trigger": "cousin"}
+{"id": "6378", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "4246", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "1961", "method": "keyword", "prediction": "OTHER", "trigger": "uncle"}
+{"id": "7083", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "1907", "method": "keyword", "prediction": "OTHER", "trigger": "mother"}
+{"id": "6476", "method": "keyword", "prediction": "OTHER", "trigger": "brother"}
+{"id": "8126", "method": "keyword", "prediction": "OTHER", "trigger": "wife"}
+{"id": "7558", "method": "keyword", "prediction": "OTHER", "trigger": "FAMILY HISTORY"}
+{"id": "5308", "method": "keyword", "prediction": "OTHER", "trigger": "grandfather"}
+{"id": "512", "method": "keyword", "prediction": "OTHER", "trigger": "son"}
+{"id": "577", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "2391", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "393", "method": "keyword", "prediction": "OTHER", "trigger": "family history"}
+{"id": "11287", "method": "keyword", "prediction": "OTHER", "trigger": "cousin"}
+{"id": "6405", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "2245", "method": "keyword", "prediction": "OTHER", "trigger": "FAMILY HISTORY"}
+{"id": "7331", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "7517", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "3002", "method": "keyword", "prediction": "OTHER", "trigger": "brother"}
+{"id": "9184", "method": "keyword", "prediction": "OTHER", "trigger": "husband"}
+{"id": "5905", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "1237", "method": "keyword", "prediction": "OTHER", "trigger": "daughter"}
+{"id": "2275", "method": "keyword", "prediction": "OTHER", "trigger": "FAMILY HISTORY"}
+{"id": "2726", "method": "keyword", "prediction": "OTHER", "trigger": "Family history"}
+{"id": "7729", "method": "keyword", "prediction": "OTHER", "trigger": "cousin"}
+{"id": "3908", "method": "keyword", "prediction": "OTHER", "trigger": "grandfather"}
+{"id": "10665", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "5124", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "508", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "8532", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "10780", "method": "keyword", "prediction": "OTHER", "trigger": "father"}
+{"id": "2508", "method": "keyword", "prediction": "OTHER", "trigger": "family history"}
+{"id": "285", "method": "keyword", "prediction": "OTHER", "trigger": "partner"}
+{"id": "9137", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "6971", "method": "keyword", "prediction": "OTHER", "trigger": "family history"}
+{"id": "9754", "method": "keyword", "prediction": "OTHER", "trigger": "partner"}
+{"id": "7417", "method": "keyword", "prediction": "OTHER", "trigger": "aunt"}
+{"id": "192", "method": "keyword", "prediction": "OTHER", "trigger": "Family history"}
+{"id": "7758", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "10556", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "9877", "method": "keyword", "prediction": "OTHER", "trigger": "grandfather"}
+{"id": "8269", "method": "keyword", "prediction": "OTHER", "trigger": "cousin"}
+{"id": "7000", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "4178", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "5535", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "1385", "method": "keyword", "prediction": "OTHER", "trigger": "aunt"}
+{"id": "9924", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "2069", "method": "keyword", "prediction": "OTHER", "trigger": "grandfather"}
+{"id": "10467", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "2907", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "3772", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "2402", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "10385", "method": "keyword", "prediction": "OTHER", "trigger": "FHx"}
+{"id": "10526", "method": "keyword", "prediction": "OTHER", "trigger": "wife"}
+{"id": "8866", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "7", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "8810", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "11200", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "1413", "method": "keyword", "prediction": "OTHER", "trigger": "brother"}
+{"id": "6492", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "11238", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "6575", "method": "keyword", "prediction": "OTHER", "trigger": "father"}
+{"id": "7853", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "6194", "method": "keyword", "prediction": "OTHER", "trigger": "half-brother"}
+{"id": "8140", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "10084", "method": "keyword", "prediction": "OTHER", "trigger": "half-brother"}
+{"id": "8451", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "4691", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "10726", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "3941", "method": "keyword", "prediction": "OTHER", "trigger": "uncle"}
+{"id": "1962", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "1378", "method": "keyword", "prediction": "OTHER", "trigger": "grandmother"}
+{"id": "4565", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "11081", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "6685", "method": "keyword", "prediction": "OTHER", "trigger": "grandmother"}
+{"id": "263", "method": "keyword", "prediction": "OTHER", "trigger": "husband"}
+{"id": "9381", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "5897", "method": "keyword", "prediction": "OTHER", "trigger": "son"}
+{"id": "3608", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "7219", "method": "keyword", "prediction": "OTHER", "trigger": "father"}
+{"id": "7781", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "1648", "method": "keyword", "prediction": "OTHER", "trigger": "family history"}
+{"id": "10256", "method": "keyword", "prediction": "OTHER", "trigger": "son"}
+{"id": "3738", "method": "keyword", "prediction": "OTHER", "trigger": "brother"}
+{"id": "7154", "method": "keyword", "prediction": "OTHER", "trigger": "wife"}
+{"id": "4585", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "7001", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "1863", "method": "keyword", "prediction": "OTHER", "trigger": "Family history"}
+{"id": "5271", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "1037", "method": "keyword", "prediction": "OTHER", "trigger": "family history"}
+{"id": "9208", "method": "keyword", "prediction": "OTHER", "trigger": "Family history"}
+{"id": "7705", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "964", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "705", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "9393", "method": "keyword", "prediction": "OTHER", "trigger": "FHx"}
+{"id": "11328", "method": "keyword", "prediction": "OTHER", "trigger": "grandfather"}
+{"id": "11363", "method": "keyword", "prediction": "OTHER", "trigger": "father"}
+{"id": "5706", "method": "keyword", "prediction": "OTHER", "trigger": "Family history"}
+{"id": "5775", "method": "keyword", "prediction": "OTHER", "trigger": "grandmother"}
+{"id": "11259", "method": "keyword", "prediction": "OTHER", "trigger": "family history"}
+{"id": "10577", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "6171", "method": "keyword", "prediction": "OTHER", "trigger": "grandfather"}
+{"id": "4979", "method": "keyword", "prediction": "OTHER", "trigger": "grandmother"}
+{"id": "3044", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "33", "method": "keyword", "prediction": "OTHER", "trigger": "family history"}
+{"id": "4970", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "8227", "method": "keyword", "prediction": "OTHER", "trigger": "cousin"}
+{"id": "6234", "method": "keyword", "prediction": "OTHER", "trigger": "grandfather"}
+{"id": "9358", "method": "keyword", "prediction": "OTHER", "trigger": "cousin"}
+{"id": "5040", "method": "keyword", "prediction": "OTHER", "trigger": "grandmother"}
+{"id": "7126", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "5812", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "922", "method": "keyword", "prediction": "OTHER", "trigger": "cousin"}
+{"id": "1203", "method": "keyword", "prediction": "OTHER", "trigger": "son"}
+{"id": "10600", "method": "keyword", "prediction": "OTHER", "trigger": "mother"}
+{"id": "10758", "method": "keyword", "prediction": "OTHER", "trigger": "Family history"}
+{"id": "3580", "method": "keyword", "prediction": "OTHER", "trigger": "partner"}
+{"id": "10308", "method": "keyword", "prediction": "OTHER", "trigger": "partner"}
+{"id": "3721", "method": "keyword", "prediction": "OTHER", "trigger": "aunt"}
+{"id": "1695", "method": "keyword", "prediction": "OTHER", "trigger": "aunt"}
+{"id": "11161", "method": "keyword", "prediction": "OTHER", "trigger": "half-brother"}
+{"id": "4351", "method": "keyword", "prediction": "OTHER", "trigger": "husband"}
+{"id": "5066", "method": "keyword", "prediction": "OTHER", "trigger": "Family history"}
+{"id": "9826", "method": "keyword", "prediction": "OTHER", "trigger": "Family history"}
+{"id": "1560", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "4819", "method": "keyword", "prediction": "OTHER", "trigger": "grandfather"}
+{"id": "9872", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "8050", "method": "keyword", "prediction": "OTHER", "trigger": "partner"}
+{"id": "11397", "method": "keyword", "prediction": "OTHER", "trigger": "grandfather"}
+{"id": "10970", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "2119", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "3800", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "143", "method": "keyword", "prediction": "OTHER", "trigger": "half-brother"}
+{"id": "2497", "method": "keyword", "prediction": "OTHER", "trigger": "FAMILY HISTORY"}
+{"id": "6226", "method": "keyword", "prediction": "OTHER", "trigger": "grandmother"}
+{"id": "9900", "method": "keyword", "prediction": "OTHER", "trigger": "aunt"}
+{"id": "5047", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "4029", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "2073", "method": "keyword", "prediction": "OTHER", "trigger": "wife"}
+{"id": "10124", "method": "keyword", "prediction": "OTHER", "trigger": "FAMILY HISTORY"}
+{"id": "6317", "method": "keyword", "prediction": "OTHER", "trigger": "family history"}
+{"id": "742", "method": "keyword", "prediction": "OTHER", "trigger": "family history"}
+{"id": "9797", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "1653", "method": "keyword", "prediction": "OTHER", "trigger": "FHx"}
+{"id": "7183", "method": "keyword", "prediction": "OTHER", "trigger": "partner"}
+{"id": "10634", "method": "keyword", "prediction": "OTHER", "trigger": "aunt"}
+{"id": "8703", "method": "keyword", "prediction": "OTHER", "trigger": "grandmother"}
+{"id": "3210", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "1897", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "168", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "4642", "method": "keyword", "prediction": "OTHER", "trigger": "brother"}
+{"id": "2627", "method": "keyword", "prediction": "OTHER", "trigger": "father"}
+{"id": "578", "method": "keyword", "prediction": "OTHER", "trigger": "family history"}
+{"id": "3530", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "10853", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "7025", "method": "keyword", "prediction": "OTHER", "trigger": "wife"}
+{"id": "4906", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "915", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "4148", "method": "keyword", "prediction": "OTHER", "trigger": "grandfather"}
+{"id": "9916", "method": "keyword", "prediction": "OTHER", "trigger": "daughter"}
+{"id": "8066", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "10799", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "785", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "10960", "method": "keyword", "prediction": "OTHER", "trigger": "mother"}
+{"id": "259", "method": "keyword", "prediction": "OTHER", "trigger": "uncle"}
+{"id": "3893", "method": "keyword", "prediction": "OTHER", "trigger": "cousin"}
+{"id": "7553", "method": "keyword", "prediction": "OTHER", "trigger": "husband"}
+{"id": "4084", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "6749", "method": "keyword", "prediction": "OTHER", "trigger": "FAMILY HISTORY"}
+{"id": "8890", "method": "keyword", "prediction": "OTHER", "trigger": "grandfather"}
+{"id": "2273", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "6566", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "6630", "method": "keyword", "prediction": "OTHER", "trigger": "family history"}
+{"id": "5378", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "6662", "method": "keyword", "prediction": "OTHER", "trigger": "wife"}
+{"id": "389", "method": "keyword", "prediction": "OTHER", "trigger": "mother"}
+{"id": "3158", "method": "keyword", "prediction": "OTHER", "trigger": "cousin"}
+{"id": "10838", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "9443", "method": "keyword", "prediction": "OTHER", "trigger": "aunt"}
+{"id": "83", "method": "keyword", "prediction": "OTHER", "trigger": "family history"}
+{"id": "5433", "method": "keyword", "prediction": "OTHER", "trigger": "sister"}
+{"id": "3419", "method": "keyword", "prediction": "OTHER", "trigger": "grandfather"}
+{"id": "4023", "method": "keyword", "prediction": "OTHER", "trigger": "family history"}
+{"id": "8228", "method": "keyword", "prediction": "OTHER", "trigger": "family history"}
+{"id": "10708", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "6929", "method": "keyword", "prediction": "OTHER", "trigger": "family history"}
+{"id": "8152", "method": "keyword", "prediction": "OTHER", "trigger": "husband"}
+{"id": "3205", "method": "keyword", "prediction": "OTHER", "trigger": "cousin"}
+{"id": "10345", "method": "keyword", "prediction": "OTHER", "trigger": "family history"}
+{"id": "5474", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "1199", "method": "keyword", "prediction": "OTHER", "trigger": "sister"}
+{"id": "6011", "method": "keyword", "prediction": "OTHER", "trigger": "grandmother"}
+{"id": "5697", "method": "keyword", "prediction": "OTHER", "trigger": "sister"}
+{"id": "8002", "method": "keyword", "prediction": "OTHER", "trigger": "family history"}
+{"id": "3159", "method": "keyword", "prediction": "OTHER", "trigger": "FHx"}
+{"id": "10668", "method": "keyword", "prediction": "OTHER", "trigger": "wife"}
+{"id": "4622", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "9896", "method": "keyword", "prediction": "OTHER", "trigger": "grandmother"}
+{"id": "1270", "method": "keyword", "prediction": "OTHER", "trigger": "daughter"}
+{"id": "5834", "method": "keyword", "prediction": "OTHER", "trigger": "brother"}
+{"id": "9528", "method": "keyword", "prediction": "OTHER", "trigger": "brother"}
+{"id": "5368", "method": "keyword", "prediction": "OTHER", "trigger": "cousin"}
+{"id": "11245", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "478", "method": "keyword", "prediction": "OTHER", "trigger": "family history"}
+{"id": "10038", "method": "keyword", "prediction": "OTHER", "trigger": "Family history"}
+{"id": "6357", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "11076", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "10296", "method": "keyword", "prediction": "OTHER", "trigger": "aunt"}
+{"id": "8994", "method": "keyword", "prediction": "OTHER", "trigger": "Family history"}
+{"id": "5117", "method": "keyword", "prediction": "OTHER", "trigger": "half-brother"}
+{"id": "256", "method": "keyword", "prediction": "OTHER", "trigger": "uncle"}
+{"id": "232", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "9859", "method": "keyword", "prediction": "OTHER", "trigger": "daughter"}
+{"id": "2683", "method": "keyword", "prediction": "OTHER", "trigger": "family history"}
+{"id": "6832", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "796", "method": "keyword", "prediction": "OTHER", "trigger": "brother"}
+{"id": "482", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "637", "method": "keyword", "prediction": "OTHER", "trigger": "grandfather"}
+{"id": "3055", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "9164", "method": "keyword", "prediction": "OTHER", "trigger": "half-brother"}
+{"id": "7565", "method": "keyword", "prediction": "OTHER", "trigger": "family history"}
+{"id": "6330", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "5516", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "5479", "method": "keyword", "prediction": "OTHER", "trigger": "cousin"}
+{"id": "9489", "method": "keyword", "prediction": "OTHER", "trigger": "partner"}
+{"id": "5101", "method": "keyword", "prediction": "OTHER", "trigger": "wife"}
+{"id": "1869", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "145", "method": "keyword", "prediction": "OTHER", "trigger": "son"}
+{"id": "5338", "method": "keyword", "prediction": "OTHER", "trigger": "father"}
+{"id": "6512", "method": "keyword", "prediction": "OTHER", "trigger": "father"}
+{"id": "1913", "method": "keyword", "prediction": "OTHER", "trigger": "wife"}
+{"id": "2039", "method": "keyword", "prediction": "OTHER", "trigger": "father"}
+{"id": "8281", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "8348", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "8865", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "9701", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "10418", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "9606", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "10414", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "4344", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "3995", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "2419", "method": "keyword", "prediction": "OTHER", "trigger": "family history"}
+{"id": "3344", "method": "keyword", "prediction": "OTHER", "trigger": "brother"}
+{"id": "2749", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "486", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "2076", "method": "keyword", "prediction": "OTHER", "trigger": "brother"}
+{"id": "9573", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "4175", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "4220", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "8273", "method": "keyword", "prediction": "OTHER", "trigger": "half-brother"}
+{"id": "2125", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "1021", "method": "keyword", "prediction": "OTHER", "trigger": "grandfather"}
+{"id": "2446", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "5205", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "6986", "method": "keyword", "prediction": "OTHER", "trigger": "Family history"}
+{"id": "2135", "method": "keyword", "prediction": "OTHER", "trigger": "family history"}
+{"id": "7447", "method": "keyword", "prediction": "OTHER", "trigger": "FHx"}
+{"id": "3178", "method": "keyword", "prediction": "OTHER", "trigger": "husband"}
+{"id": "5960", "method": "keyword", "prediction": "OTHER", "trigger": "half-brother"}
+{"id": "6975", "method": "keyword", "prediction": "OTHER", "trigger": "daughter"}
+{"id": "1205", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "134", "method": "keyword", "prediction": "OTHER", "trigger": "aunt"}
+{"id": "7838", "method": "keyword", "prediction": "OTHER", "trigger": "grandmother"}
+{"id": "8844", "method": "keyword", "prediction": "OTHER", "trigger": "partner"}
+{"id": "5524", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "6363", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "3078", "method": "keyword", "prediction": "OTHER", "trigger": "brother"}
+{"id": "590", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "799", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "4749", "method": "keyword", "prediction": "OTHER", "trigger": "husband"}
+{"id": "5546", "method": "keyword", "prediction": "OTHER", "trigger": "half-brother"}
+{"id": "10961", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "8856", "method": "keyword", "prediction": "OTHER", "trigger": "uncle"}
+{"id": "7620", "method": "keyword", "prediction": "OTHER", "trigger": "aunt"}
+{"id": "2320", "method": "keyword", "prediction": "OTHER", "trigger": "son"}
+{"id": "10583", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "430", "method": "keyword", "prediction": "OTHER", "trigger": "uncle"}
+{"id": "9398", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "2315", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "7798", "method": "keyword", "prediction": "OTHER", "trigger": "FAMILY HISTORY"}
+{"id": "5653", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "1298", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "6114", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "10332", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "9888", "method": "keyword", "prediction": "OTHER", "trigger": "grandfather"}
+{"id": "396", "method": "keyword", "prediction": "OTHER", "trigger": "husband"}
+{"id": "2542", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "4199", "method": "keyword", "prediction": "OTHER", "trigger": "aunt"}
+{"id": "8972", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "10170", "method": "keyword", "prediction": "OTHER", "trigger": "brother"}
+{"id": "9709", "method": "keyword", "prediction": "OTHER", "trigger": "grandfather"}
+{"id": "5551", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "6482", "method": "keyword", "prediction": "OTHER", "trigger": "partner"}
+{"id": "2902", "method": "keyword", "prediction": "OTHER", "trigger": "family history"}
+{"id": "727", "method": "keyword", "prediction": "OTHER", "trigger": "Family history"}
+{"id": "2829", "method": "keyword", "prediction": "OTHER", "trigger": "cousin"}
+{"id": "2558", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "9469", "method": "keyword", "prediction": "OTHER", "trigger": "aunt"}
+{"id": "10943", "method": "keyword", "prediction": "OTHER", "trigger": "family history"}
+{"id": "780", "method": "keyword", "prediction": "OTHER", "trigger": "partner"}
+{"id": "10209", "method": "keyword", "prediction": "OTHER", "trigger": "Family history"}
+{"id": "8312", "method": "keyword", "prediction": "OTHER", "trigger": "father"}
+{"id": "4669", "method": "keyword", "prediction": "OTHER", "trigger": "partner"}
+{"id": "6490", "method": "keyword", "prediction": "OTHER", "trigger": "uncle"}
+{"id": "4876", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "1508", "method": "keyword", "prediction": "OTHER", "trigger": "family history"}
+{"id": "2476", "method": "keyword", "prediction": "OTHER", "trigger": "family history"}
+{"id": "6851", "method": "keyword", "prediction": "OTHER", "trigger": "mother"}
+{"id": "9330", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "9069", "method": "keyword", "prediction": "OTHER", "trigger": "Family history"}
+{"id": "9587", "method": "keyword", "prediction": "OTHER", "trigger": "partner"}
+{"id": "8832", "method": "keyword", "prediction": "OTHER", "trigger": "brother"}
+{"id": "7866", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "10843", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "23", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "8435", "method": "keyword", "prediction": "OTHER", "trigger": "father"}
+{"id": "4678", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "4698", "method": "keyword", "prediction": "OTHER", "trigger": "aunt"}
+{"id": "9801", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "10466", "method": "keyword", "prediction": "OTHER", "trigger": "cousin"}
+{"id": "9913", "method": "keyword", "prediction": "OTHER", "trigger": "cousin"}
+{"id": "7624", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "557", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "3100", "method": "keyword", "prediction": "OTHER", "trigger": "aunt"}
+{"id": "28", "method": "keyword", "prediction": "OTHER", "trigger": "family history"}
+{"id": "7740", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "10730", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "2261", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "6380", "method": "keyword", "prediction": "OTHER", "trigger": "family history"}
+{"id": "8601", "method": "keyword", "prediction": "OTHER", "trigger": "father"}
+{"id": "8350", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "6254", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "2851", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "154", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "8533", "method": "keyword", "prediction": "OTHER", "trigger": "Family history"}
+{"id": "4168", "method": "keyword", "prediction": "OTHER", "trigger": "aunt"}
+{"id": "8320", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "2663", "method": "keyword", "prediction": "OTHER", "trigger": "sister"}
+{"id": "3243", "method": "keyword", "prediction": "OTHER", "trigger": "cousin"}
+{"id": "6089", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "4589", "method": "keyword", "prediction": "OTHER", "trigger": "grandmother"}
+{"id": "2791", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "2372", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "8357", "method": "keyword", "prediction": "OTHER", "trigger": "father"}
+{"id": "8195", "method": "keyword", "prediction": "OTHER", "trigger": "daughter"}
+{"id": "1434", "method": "keyword", "prediction": "OTHER", "trigger": "grandmother"}
+{"id": "6212", "method": "keyword", "prediction": "OTHER", "trigger": "FAMILY HISTORY"}
+{"id": "4329", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "1456", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "6420", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "10397", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "8411", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "2633", "method": "keyword", "prediction": "OTHER", "trigger": "FAMILY HISTORY"}
+{"id": "2533", "method": "keyword", "prediction": "OTHER", "trigger": "cousin"}
+{"id": "10651", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "8616", "method": "keyword", "prediction": "OTHER", "trigger": "cousin"}
+{"id": "2349", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "9448", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "8216", "method": "keyword", "prediction": "OTHER", "trigger": "cousin"}
+{"id": "4407", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "5780", "method": "keyword", "prediction": "OTHER", "trigger": "grandfather"}
+{"id": "7550", "method": "keyword", "prediction": "OTHER", "trigger": "cousin"}
+{"id": "5028", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "7029", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "640", "method": "keyword", "prediction": "OTHER", "trigger": "cousin"}
+{"id": "1278", "method": "keyword", "prediction": "OTHER", "trigger": "grandfather"}
+{"id": "6974", "method": "keyword", "prediction": "OTHER", "trigger": "mother"}
+{"id": "5528", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "5247", "method": "keyword", "prediction": "OTHER", "trigger": "FAMILY HISTORY"}
+{"id": "6758", "method": "keyword", "prediction": "OTHER", "trigger": "aunt"}
+{"id": "932", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "1166", "method": "keyword", "prediction": "OTHER", "trigger": "daughter"}
+{"id": "4078", "method": "keyword", "prediction": "OTHER", "trigger": "family history"}
+{"id": "4973", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "2361", "method": "keyword", "prediction": "OTHER", "trigger": "partner"}
+{"id": "7747", "method": "keyword", "prediction": "OTHER", "trigger": "aunt"}
+{"id": "5072", "method": "keyword", "prediction": "OTHER", "trigger": "Family history"}
+{"id": "8789", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "8063", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "2448", "method": "keyword", "prediction": "OTHER", "trigger": "aunt"}
+{"id": "7370", "method": "keyword", "prediction": "OTHER", "trigger": "aunt"}
+{"id": "7625", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "11216", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "5133", "method": "keyword", "prediction": "OTHER", "trigger": "grandmother"}
+{"id": "6256", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "1143", "method": "keyword", "prediction": "OTHER", "trigger": "husband"}
+{"id": "3394", "method": "keyword", "prediction": "OTHER", "trigger": "aunt"}
+{"id": "10035", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "5240", "method": "keyword", "prediction": "OTHER", "trigger": "FAMILY HISTORY"}
+{"id": "7584", "method": "keyword", "prediction": "OTHER", "trigger": "sister"}
+{"id": "7779", "method": "keyword", "prediction": "OTHER", "trigger": "aunt"}
+{"id": "4530", "method": "keyword", "prediction": "OTHER", "trigger": "FHx"}
+{"id": "3555", "method": "keyword", "prediction": "OTHER", "trigger": "uncle"}
+{"id": "68", "method": "keyword", "prediction": "OTHER", "trigger": "half-brother"}
+{"id": "10317", "method": "keyword", "prediction": "OTHER", "trigger": "partner"}
+{"id": "523", "method": "keyword", "prediction": "OTHER", "trigger": "partner"}
+{"id": "5366", "method": "keyword", "prediction": "OTHER", "trigger": "family history"}
+{"id": "8741", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "3891", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "713", "method": "keyword", "prediction": "OTHER", "trigger": "Family history"}
+{"id": "10086", "method": "keyword", "prediction": "OTHER", "trigger": "Family history"}
+{"id": "5549", "method": "keyword", "prediction": "OTHER", "trigger": "FAMILY HISTORY"}
+{"id": "8950", "method": "keyword", "prediction": "OTHER", "trigger": "grandmother"}
+{"id": "2510", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "9845", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "8928", "method": "keyword", "prediction": "OTHER", "trigger": "Family history"}
+{"id": "7464", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "5852", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "10455", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "2214", "method": "keyword", "prediction": "OTHER", "trigger": "grandmother"}
+{"id": "9520", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "6255", "method": "keyword", "prediction": "OTHER", "trigger": "uncle"}
+{"id": "1555", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "3056", "method": "keyword", "prediction": "OTHER", "trigger": "partner"}
+{"id": "9612", "method": "keyword", "prediction": "OTHER", "trigger": "Family history"}
+{"id": "7684", "method": "keyword", "prediction": "OTHER", "trigger": "family history"}
+{"id": "4598", "method": "keyword", "prediction": "OTHER", "trigger": "cousin"}
+{"id": "8266", "method": "keyword", "prediction": "OTHER", "trigger": "aunt"}
+{"id": "2211", "method": "keyword", "prediction": "OTHER", "trigger": "family history"}
+{"id": "5144", "method": "keyword", "prediction": "OTHER", "trigger": "partner"}
+{"id": "820", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "6247", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "7405", "method": "keyword", "prediction": "OTHER", "trigger": "grandmother"}
+{"id": "4052", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "6583", "method": "keyword", "prediction": "OTHER", "trigger": "father"}
+{"id": "6188", "method": "keyword", "prediction": "OTHER", "trigger": "grandmother"}
+{"id": "2720", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "10564", "method": "keyword", "prediction": "OTHER", "trigger": "wife"}
+{"id": "8419", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "3946", "method": "keyword", "prediction": "OTHER", "trigger": "grandfather"}
+{"id": "5035", "method": "keyword", "prediction": "OTHER", "trigger": "grandfather"}
+{"id": "1365", "method": "keyword", "prediction": "OTHER", "trigger": "FAMILY HISTORY"}
+{"id": "3392", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "7603", "method": "keyword", "prediction": "OTHER", "trigger": "wife"}
+{"id": "6216", "method": "keyword", "prediction": "OTHER", "trigger": "aunt"}
+{"id": "3357", "method": "keyword", "prediction": "OTHER", "trigger": "grandmother"}
+{"id": "10095", "method": "keyword", "prediction": "OTHER", "trigger": "half-brother"}
+{"id": "8254", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "10827", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "1922", "method": "keyword", "prediction": "PATIENT", "trigger": ""}
+{"id": "6070", "method": "keyword", "prediction": "OTHER", "trigger": "cousin"}

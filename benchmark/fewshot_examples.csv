@@ -1,0 +1,5 @@
+id,structure,text,condition_surface,label
+9268,fh_trigger_phrase,Mrs. Lopez reports a past history of celiac disease.,celiac disease,PATIENT
+6541,narrative,The patient has hypertension.,hypertension,PATIENT
+1674,fh_trigger_phrase,Family history of Parkinson's disease in his sister.,Parkinson's disease,OTHER
+1606,narrative,Her paternal uncle has a seizure disorder.,a seizure disorder,OTHER

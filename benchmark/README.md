@@ -1,15 +1,17 @@
 # Benchmark: does LLM accuracy on experiencer attribution depend on the test set?
 
-Everything here runs from the repo root. Only `run_gemini.py` needs an API key.
+Everything here runs from the repo root. Only `run_gemini.py` and `notes/run_notes.py` need an API key.
+
+Two evaluations of the same question: **sentence-level** (this folder; both Gemini models scored 100%) and **note-level** (the [`notes/`](notes/) folder; the model lists the patient's own conditions from a whole note).
 
 | Step | Command | Output |
 | --- | --- | --- |
 | 1. Build the test set (done) | `python benchmark/build_test_set.py` | `test_set.csv`, `fewshot_examples.csv`, `handcheck_sheet.csv` |
 | 2. Hand-check 100 sentences (you) | open `handcheck_sheet.csv`, fill in the last three columns | your notes |
 | 3. Keyword baseline (done) | `python benchmark/keyword_baseline.py` | `results/keyword.jsonl` |
-| 4. Gemini pilot | `python benchmark/run_gemini.py --method zero_shot --model MODEL --limit 50` | `results/gemini_zero_shot.jsonl` |
+| 4. Gemini pilot | `python benchmark/run_gemini.py --method zero_shot --model gemini-3.8-flash --limit 50` | `results/gemini_zero_shot.jsonl` |
 | 5. Gemini full runs | same command without `--limit`, then again with `--method few_shot` | `results/gemini_*.jsonl` |
-| 6. Stability check | `python benchmark/run_gemini.py --method zero_shot --model MODEL --limit 100 --tag repeat` | `results/gemini_zero_shot_repeat.jsonl` |
+| 6. Stability check | `python benchmark/run_gemini.py --method zero_shot --model gemini-3.8-flash --limit 100 --tag repeat` | `results/gemini_zero_shot_repeat.jsonl` |
 | 7. Score everything | `python benchmark/analyze.py` | `results/tables/*.csv` |
 
 Before step 4: `pip install google-genai`, then set `GEMINI_API_KEY` in your terminal. Never put the key in a file in this repo. To check the pipeline without a key, add `--dry-run` (fake answers, no cost, written to separate `_DRYRUN` files).

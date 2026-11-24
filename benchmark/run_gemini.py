@@ -108,6 +108,9 @@ def main():
                 done.add(rec["id"])
     todo = [r for r in rows if r["id"] not in done]
     print(f"{len(rows)} sentences, {len(done)} already done, {len(todo)} to run -> {out}")
+    if not todo:
+        print("Nothing to do: every sentence already has an answer.")
+        return
 
     model = (FakeModel({r["id"]: r["label"] for r in rows}) if args.dry_run
              else Gemini(args.model, args.no_thinking))
